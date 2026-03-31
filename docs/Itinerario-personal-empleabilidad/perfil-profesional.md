@@ -1,0 +1,11 @@
+# Perfil profesional personal
+
+Mi nombre es **Joaquín Luis García García** y actualmente estoy estudiando **Administración de Sistemas Informáticos en Red (ASIR)**. A través de mi formación y de los proyectos que he ido realizando, estoy construyendo un perfil técnico orientado a la **administración de sistemas, redes, ciberseguridad y análisis de datos**.
+
+Los proyectos que más me llaman la atención son los que permiten trabajar varias partes a la vez, como la **red, los servidores, los servicios o la seguridad**. Además, también disfruto de todo el proceso de preparar equipos desde cero, ya sea montando un ordenador por piezas o configurando uno ya ensamblado, y dejarlo listo para integrarlo correctamente dentro de un entorno de trabajo. Me interesa especialmente cuando el proyecto se parece a una **situación real de empresa**, porque así no solo aprendo a configurar elementos sueltos, sino también a entender cómo se organiza y funciona una infraestructura IT en conjunto.
+
+Durante este proceso he ido aprendiendo tecnologías y herramientas como **Windows Server**, **Linux**, **Active Directory**, **DNS**, **DHCP**, **FTP**, **IIS**, **VLANs**, **ACLs**, **NAT**, **SSH** y también servicios cloud en **AWS**, como **EC2** y **S3**. Además, he empezado a aplicar conceptos relacionados con la seguridad, como la segmentación de red, el control de accesos y la reducción de la superficie de exposición de los servicios.
+
+Aunque una de las áreas que más me interesa es la **ciberseguridad**, durante el proyecto también me he dado cuenta de que me gusta bastante todo lo relacionado con el **análisis de datos** y el trabajo con **bases de datos**. Me resulta interesante no solo almacenar información, sino también poder organizarla, consultarla y extraer conclusiones útiles a partir de ella. Por eso, además de seguir profundizando en sistemas y seguridad, también me gustaría seguir aprendiendo en esa línea.
+
+Lo que más me motiva dentro del mundo tecnológico es la posibilidad de **resolver problemas**, investigar fallos, entender cómo funcionan las infraestructuras y mejorar poco a poco tanto a nivel técnico como profesional. También valoro mucho la posibilidad de descubrir áreas nuevas dentro del sector, como me ha pasado con el análisis de datos, y ver cómo pueden complementar mi perfil de cara al futuro.

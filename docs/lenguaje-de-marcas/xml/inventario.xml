@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<!DOCTYPE inventario SYSTEM "modelo.dtd">
+
+<inventario club= " Almería CF" fecha= " 2026-03-18">
+
+  <tipos>
+    <tipo id="t01">Servidor</tipo>
+    <tipo id="t02">Switch multicapa capa 3</tipo>
+    <tipo id="t03">Switch de acceso</tipo>
+    <tipo id="t04">Router interno</tipo>
+    <tipo id="t05">Punto de acceso</tipo>
+    <tipo id="t06">SAI</tipo>
+    <tipo id="t07">Cableado Ethernet</tipo>
+    <tipo id="t08">Ordenador de sobremesa</tipo>
+    <tipo id="t09">Estación de trabajo profesional</tipo>
+    <tipo id="t10">Monitor</tipo>
+    <tipo id="t11">Ordenador portátil</tipo>
+    <tipo id="t12">Disco duro</tipo>
+    <tipo id="t13">USB de almacenamiento</tipo>
+    <tipo id="t14">Impresora</tipo>
+    <tipo id="t15">Televisión</tipo>
+    <tipo id="t16">Controladora inalámbrica</tipo>
+    <tipo id="t17">Ordenador de sobremesa a medida</tipo>
+  </tipos>
+
+  <ubicaciones>
+    <ubicacion id="u01">CPD - Planta 2</ubicacion>
+    <ubicacion id="u02">CPD - Plantas 1 y 2</ubicacion>
+    <ubicacion id="u03">Salas de reuniones 1 y 2</ubicacion>
+    <ubicacion id="u04">Toda la oficina</ubicacion>
+    <ubicacion id="u05">Departamentos según necesidades</ubicacion>
+    <ubicacion id="u06">Prensa y Marketing</ubicacion>
+    <ubicacion id="u07">Soporte informático</ubicacion>
+    <ubicacion id="u08">Soporte informático y Prensa y Marketing</ubicacion>
+    <ubicacion id="u09">Sala de reuniones</ubicacion>
+    <ubicacion id="u10">Varias ubicaciones</ubicacion>
+    <ubicacion id="u11">Planta 1</ubicacion>
+  </ubicaciones>
+
+  <proveedores>
+    <proveedor id="p01">Canales de venta empresa</proveedor>
+    <proveedor id="p02">Renting</proveedor>
+  </proveedores>
+
+  <items>
+    <item id="srv01" tipoRef="t01" ubicacionRef="u01" proveedorRef="p01" estado="operativo">
+      <nombre>Servidor principal</nombre>
+      <modelo>Dell PowerEdge R640 Intel Xeon Silver</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Servidor central del club</funcion>
+      <costeUnidad moneda="EUR">1185</costeUnidad>
+    </item>
+
+    <item id="srv02" tipoRef="t01" ubicacionRef="u01" proveedorRef="p01" estado="operativo">
+      <nombre>Servidor de copias de seguridad</nombre>
+      <modelo>HP ProLiant DL380 Gen10</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Copias de seguridad internas y apoyo a servicios corporativos</funcion>
+      <costeUnidad moneda="EUR">1450</costeUnidad>
+    </item>
+
+    <item id="swcore01" tipoRef="t02" ubicacionRef="u02" proveedorRef="p01" estado="operativo">
+      <nombre>Switch core</nombre>
+      <modelo>Cisco Catalyst 3560</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Núcleo de red y enrutamiento interno</funcion>
+      <costeUnidad moneda="EUR">300</costeUnidad>
+    </item>
+
+    <item id="swaccess01" tipoRef="t03" ubicacionRef="u01" proveedorRef="p01" estado="operativo">
+      <nombre>Switch acceso planta 2</nombre>
+      <modelo>Cisco Catalyst 2960</modelo>
+      <cantidad>2</cantidad>
+      <funcion>Conexión de equipos finales en cada planta</funcion>
+      <costeUnidad moneda="EUR">150</costeUnidad>
+    </item>
+
+    <item id="swaccess02" tipoRef="t03" ubicacionRef="u11" proveedorRef="p01" estado="operativo">
+      <nombre>Switch acceso planta 1</nombre>
+      <modelo>Cisco Catalyst 2960</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Conexión de equipos finales de la planta 1</funcion>
+      <costeUnidad moneda="EUR">165</costeUnidad>
+    </item>
+
+    <item id="router01" tipoRef="t04" ubicacionRef="u01" proveedorRef="p01" estado="mantenimiento">
+      <nombre>Router corporativo</nombre>
+      <modelo>Cisco 2911 Integrated Services</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Salida a Internet y NAT</funcion>
+      <costeUnidad moneda="EUR">400</costeUnidad>
+    </item>
+
+    <item id="wlc01" tipoRef="t16" ubicacionRef="u01" proveedorRef="p01" estado="operativo">
+      <nombre>Controladora WiFi principal</nombre>
+      <modelo>Cisco WLC 2504</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Gestión centralizada de puntos de acceso inalámbricos</funcion>
+      <costeUnidad moneda="EUR">520</costeUnidad>
+    </item>
+
+    <item id="ap01" tipoRef="t05" ubicacionRef="u03" proveedorRef="p01" estado="operativo">
+      <nombre>Punto de acceso de reuniones</nombre>
+      <modelo>Cisco Catalyst 9105AXI-Z</modelo>
+      <cantidad>2</cantidad>
+      <funcion>Proporcionar conectividad Wi-Fi</funcion>
+      <costeUnidad moneda="EUR">170</costeUnidad>
+    </item>
+
+    <item id="ap02" tipoRef="t05" ubicacionRef="u11" proveedorRef="p01" estado="operativo">
+      <nombre>Punto de acceso ligero planta 1</nombre>
+      <modelo>Cisco LAP-PT</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Ampliar la cobertura Wi-Fi en la planta 1</funcion>
+      <costeUnidad moneda="EUR">95</costeUnidad>
+    </item>
+
+    <item id="ups01" tipoRef="t06" ubicacionRef="u01" proveedorRef="p01" estado="operativo">
+      <nombre>SAI del CPD</nombre>
+      <modelo>APC Smart-UPS 1500VA SMT1500I</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Suministro eléctrico de respaldo ante apagones</funcion>
+      <costeUnidad moneda="EUR">600</costeUnidad>
+    </item>
+
+    <item id="cableeth01" tipoRef="t07" ubicacionRef="u04" proveedorRef="p01" estado="operativo">
+      <nombre>Cableado estructurado Cat6</nombre>
+      <modelo>Cable Ethernet UTP Cat6</modelo>
+      <cantidad>36</cantidad>
+      <funcion>Conectividad entre equipos de la red interna</funcion>
+      <costeUnidad moneda="EUR">57</costeUnidad>
+    </item>
+
+    <item id="pccorp01" tipoRef="t08" ubicacionRef="u05" proveedorRef="p01" estado="operativo">
+      <nombre>Equipos corporativos</nombre>
+      <modelo>Dell Pro Desktop</modelo>
+      <cantidad>16</cantidad>
+      <funcion>Puestos de trabajo corporativos</funcion>
+      <costeUnidad moneda="EUR">800</costeUnidad>
+    </item>
+
+    <item id="pcdesign01" tipoRef="t08" ubicacionRef="u06" proveedorRef="p01" estado="operativo">
+      <nombre>Equipos de diseño</nombre>
+      <modelo>Dell Pro Desktop configuración superior</modelo>
+      <cantidad>2</cantidad>
+      <funcion>Diseño gráfico y edición de contenidos</funcion>
+      <costeUnidad moneda="EUR">1400</costeUnidad>
+    </item>
+
+        <item id="pc01" tipoRef="t17" ubicacionRef="u06" proveedorRef="p01" estado="operativo">
+      <nombre>Ordenador de sobremesa a medida</nombre>
+      <modelo>AMD Ryzen 9 9900X, GeForce RTX 5070 </modelo>
+      <cantidad>1</cantidad>
+      <funcion>Diseño gráfico y edición de contenidos</funcion>
+      <costeUnidad moneda="EUR">1900</costeUnidad>
+    </item>
+
+    <item id="wsit01" tipoRef="t09" ubicacionRef="u07" proveedorRef="p01" estado="operativo">
+      <nombre>Estaciones de trabajo de informática</nombre>
+      <modelo>HP Z4 G5</modelo>
+      <cantidad>3</cantidad>
+      <funcion>Auditorías, virtualización y soporte técnico</funcion>
+      <costeUnidad moneda="EUR">2500</costeUnidad>
+    </item>
+
+    <item id="monitor2401" tipoRef="t10" ubicacionRef="u05" proveedorRef="p01" estado="operativo">
+      <nombre>Monitores de oficina de 24 pulgadas</nombre>
+      <modelo>Acer Vero 24 pulgadas</modelo>
+      <cantidad>16</cantidad>
+      <funcion>Salida de vídeo para puestos de trabajo</funcion>
+      <costeUnidad moneda="EUR">150</costeUnidad>
+    </item>
+
+    <item id="monitor2701" tipoRef="t10" ubicacionRef="u08" proveedorRef="p01" estado="operativo">
+      <nombre>Monitores profesionales de 27 pulgadas</nombre>
+      <modelo>Acer 27 pulgadas IPS</modelo>
+      <cantidad>6</cantidad>
+      <funcion>Salida de vídeo para tareas técnicas y creativas</funcion>
+      <costeUnidad moneda="EUR">200</costeUnidad>
+    </item>
+
+    <item id="laptop0101" tipoRef="t11" ubicacionRef="u09" proveedorRef="p01" estado="operativo">
+      <nombre>Portátiles auxiliares</nombre>
+      <modelo>Dell Latitude 5440</modelo>
+      <cantidad>6</cantidad>
+      <funcion>Portátiles auxiliares para reuniones y apoyo</funcion>
+      <costeUnidad moneda="EUR">900</costeUnidad>
+    </item>
+
+    <item id="laptopit01" tipoRef="t11" ubicacionRef="u07" proveedorRef="p01" estado="operativo">
+      <nombre>Portátil de soporte informático</nombre>
+      <modelo>Lenovo ThinkPad T16 Gen 2</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Portátil auxiliar para soporte informático</funcion>
+      <costeUnidad moneda="EUR">1700</costeUnidad>
+    </item>
+
+    <item id="hddraid01" tipoRef="t12" ubicacionRef="u01" proveedorRef="p01" estado="mantenimiento">
+      <nombre>Discos RAID del servidor</nombre>
+      <modelo>Seagate IronWolf Pro NAS HDD</modelo>
+      <cantidad>3</cantidad>
+      <funcion>Almacenamiento en RAID 5 del servidor principal</funcion>
+      <costeUnidad moneda="EUR">430</costeUnidad>
+    </item>
+
+    <item id="usbstorage01" tipoRef="t13" ubicacionRef="u10" proveedorRef="p01" estado="operativo">
+      <nombre>Memorias USB corporativas</nombre>
+      <modelo>SanDisk Ultra Flair 1 TB</modelo>
+      <cantidad>22</cantidad>
+      <funcion>Almacenamiento portátil para empleados</funcion>
+      <costeUnidad moneda="EUR">55</costeUnidad>
+    </item>
+
+    <item id="printer01" tipoRef="t14" ubicacionRef="u10" proveedorRef="p02" estado="operativo">
+      <nombre>Impresoras multifunción</nombre>
+      <modelo>Canon imageCLASS MF746Cdw</modelo>
+      <cantidad>6</cantidad>
+      <funcion>Impresión y escaneo de documentos</funcion>
+      <costeUnidad moneda="EUR">60</costeUnidad>
+    </item>
+
+    <item id="tvmeeting01" tipoRef="t15" ubicacionRef="u10" proveedorRef="p01" estado="averiado">
+      <nombre>Pantallas de reuniones</nombre>
+      <modelo>Samsung 55 pulgadas QLED 4K</modelo>
+      <cantidad>3</cantidad>
+      <funcion>Soporte visual para reuniones y presentaciones</funcion>
+      <costeUnidad moneda="EUR">600</costeUnidad>
+    </item>
+  </items>
+
+</inventario>

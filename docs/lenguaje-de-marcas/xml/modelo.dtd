@@ -1,0 +1,43 @@
+<!ELEMENT inventario (tipos, ubicaciones, proveedores, items)>
+<!ATTLIST inventario
+  club CDATA #REQUIRED
+  fecha CDATA #REQUIRED
+>
+
+<!ELEMENT tipos (tipo+)>
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo
+  id ID #REQUIRED
+>
+
+<!ELEMENT ubicaciones (ubicacion+)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ATTLIST ubicacion
+  id ID #REQUIRED
+>
+
+<!ELEMENT proveedores (proveedor+)>
+<!ELEMENT proveedor (#PCDATA)>
+<!ATTLIST proveedor
+  id ID #REQUIRED
+>
+
+<!ELEMENT items (item+)>
+
+<!ELEMENT item (nombre, modelo, cantidad, funcion, costeUnidad)>
+<!ATTLIST item
+  id ID #REQUIRED
+  tipoRef IDREF #REQUIRED
+  ubicacionRef IDREF #REQUIRED
+  proveedorRef IDREF #REQUIRED
+  estado (operativo | mantenimiento | averiado | retirado) #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT funcion (#PCDATA)>
+<!ELEMENT costeUnidad (#PCDATA)>
+<!ATTLIST costeUnidad
+  moneda (EUR | USD) #REQUIRED
+>

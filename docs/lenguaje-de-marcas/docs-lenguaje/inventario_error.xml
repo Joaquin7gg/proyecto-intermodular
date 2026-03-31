@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="inventario.xsl"?>
+<!DOCTYPE inventario SYSTEM "modelo.dtd">
+
+<inventario club="Almería CF" fecha="2026-01-01">
+
+  <tipos>
+    <tipo id="t01">Servidor</tipo>
+    <tipo id="t02">Switch multicapa capa 3</tipo>
+  </tipos>
+
+  <ubicaciones>
+    <ubicacion id="u01">CPD - Planta 2</ubicacion>
+    <ubicacion id="u02">CPD - Plantas 1 y 2</ubicacion>
+  </ubicaciones>
+
+  <proveedores>
+    <proveedor id="p01">Canales de venta empresa</proveedor>
+    <proveedor id="p02">Renting</proveedor>
+  </proveedores>
+
+  <items>
+    <item id="srv01" tipoRef="t01" ubicacionRef="u01" proveedorRef="p01" estado="operativo">
+      <modelo>Dell PowerEdge R640 Intel Xeon Silver</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Servidor central del club</funcion>
+      <costeUnidad moneda="EUR">1185</costeUnidad>
+    </item>
+
+    <item id="srv01" tipoRef="t02" ubicacionRef="u99" proveedorRef="p01" estado="roto">
+      <modelo>Cisco Catalyst 3560</modelo>
+      <cantidad>1</cantidad>
+      <funcion>Núcleo de red y enrutamiento interno</funcion>
+      <costeUnidad moneda="EUR">300</costeUnidad>
+    </item>
+  </items>
+
+</inventario>

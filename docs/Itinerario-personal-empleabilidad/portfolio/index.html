@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Joaquín Luis García García</title>
+  <link rel="icon" type="image/png" href="capturas/favicon.png">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <p class="eyebrow">Portfolio básico · Proyecto Intermodular ASIR</p>
+      <h1>Joaquín Luis García García</h1>
+      <p class="subtitle">
+        Estudiante de ASIR con interés en sistemas, redes, ciberseguridad
+        y análisis de datos.
+      </p>
+      <a class="button" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        Ver repositorio en GitHub
+      </a>
+    </div>
+
+    <div class="hero-photo">
+      <img src="capturas/joaquin.jpg" alt="Foto de Joaquín Luis García García" />
+    </div>
+  </div>
+</header>
+
+<nav class="section-nav">
+  <div class="container">
+    <ul>
+      <li><a href="#proyecto">Mi proyecto</a></li>
+      <li><a href="#explicacion">Explicación</a></li>
+      <li><a href="#capturas">Capturas</a></li>
+      <li><a href="#tecnologias">Tecnologías</a></li>
+      <li><a href="#aprendizajes">Aprendizajes del proyecto</a></li>
+      <li><a href="#repositorio">Repositorio</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <main class="container">
+    <section class="card" id="proyecto">
+      <h2>Mi proyecto</h2>
+      <p>
+        Este proyecto consiste en el diseño e implementación de una
+        <strong>infraestructura IT completa</strong> para un club deportivo ficticio,
+        planteado como un entorno similar al de una pequeña o mediana empresa.
+        Se trata de un proyecto intermodular en el que se han trabajado de forma conjunta
+        distintas áreas como <strong>hardware</strong>, <strong>redes</strong>,
+        <strong>sistemas</strong>, <strong>bases de datos</strong>,
+        <strong>lenguaje de marcas</strong> y <strong>computación en la nube</strong>.
+      </p>
+      <p>
+        El objetivo principal ha sido construir una solución tecnológica coherente,
+        funcional y escalable, capaz de dar soporte a distintos departamentos del club,
+        cubriendo tanto las necesidades de los usuarios como la parte de administración,
+        conectividad, almacenamiento, servicios corporativos y publicación de recursos.
+      </p>
+    </section>
+
+    <section class="card" id="explicacion">
+      <h2>Explicación del proyecto</h2>
+      <p>
+        Se trata de un proyecto técnico en el que se plantea desde cero la infraestructura
+        informática de una organización. Para ello, se ha definido el hardware necesario,
+        se ha diseñado la red física y lógica, se ha implantado un entorno cliente-servidor,
+        se ha creado una base de datos para gestionar los recursos tecnológicos y se ha
+        ampliado la infraestructura con una arquitectura híbrida en la nube mediante
+        <strong>AWS</strong>.
+      </p>
+      <p>
+        Además, también se ha desarrollado una representación estructurada del inventario
+        tecnológico mediante <strong>XML</strong>, validado con <strong>DTD</strong> y
+        transformado con <strong>XSLT</strong> a formato HTML, de forma que toda la
+        información del sistema pueda mostrarse de una manera clara y organizada dentro
+        de la intranet del proyecto.
+      </p>
+      <p>
+        Una de las partes más importantes del trabajo ha sido precisamente la relación
+        entre los distintos módulos. La web desarrollada en <strong>Lenguaje de Marcas</strong>
+        se ha integrado como <strong>intranet</strong> dentro del servidor web configurado
+        en <strong>Implementación de Sistemas Operativos</strong>. A su vez, la base de
+        datos diseñada en <strong>Gestión de Bases de Datos</strong> se ha planteado como
+        parte de la infraestructura tecnológica del proyecto y su alojamiento se ha
+        relacionado con la parte de <strong>Computación en la Nube</strong>, donde se
+        propone el uso de <strong>Amazon RDS (MySQL)</strong> dentro de una arquitectura
+        híbrida. Del mismo modo, todo el hardware definido en <strong>Fundamentos de Hardware</strong>
+        se ha incorporado al inventario tecnológico representado en XML dentro del módulo
+        de <strong>Lenguaje de Marcas</strong>. También existe una relación directa entre
+        <strong>Planificación y Administración de Redes</strong> e
+        <strong>Implementación de Sistemas Operativos</strong>, ya que la red segmentada
+        mediante <strong>VLANs</strong>, la distribución por departamentos y la estructura
+        del CPD sirven como base sobre la que se despliegan los servidores, los clientes
+        y los distintos servicios corporativos.
+      </p>
+    </section>
+
+    <section class="card" id="capturas">
+      <h2>Capturas del proyecto</h2>
+      <p class="section-text">
+        A continuación se incluyen algunas capturas representativas del proyecto.
+    </p>
+
+      <div class="gallery">
+        <figure class="gallery-item">
+          <img src="capturas/red.png" alt="Esquema de red del proyecto" />
+          <figcaption>Esquema de la infraestructura de red implementada en Cisco Packet Tracer (Planta 1).</figcaption>
+        </figure>
+
+           <figure class="gallery-item">
+          <img src="capturas/red1.png" alt="Esquema de red del proyecto" />
+          <figcaption>Esquema de la infraestructura de red implementada en Cisco Packet Tracer (Planta 2).</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="capturas/intranet.png" alt="Intranet del proyecto" />
+          <figcaption>Intranet desarrollada e integrada en el entorno cliente-servidor.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="capturas/active-directory.png" alt="Configuración de Active Directory" />
+          <figcaption>Gestión de usuarios, grupos y permisos con Active Directory.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="capturas/aws.png" alt="Arquitectura cloud en AWS" />
+          <figcaption>Diagrama de la arquitectura generado con Draw.io.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card" id="tecnologias">
+      <h2>Tecnologías utilizadas</h2>
+      <div class="tech-grid">
+        <div>
+          <h3>Hardware e infraestructura</h3>
+          <ul>
+            <li>Equipos corporativos de sobremesa</li>
+            <li>Workstations</li>
+            <li>Portátiles profesionales</li>
+            <li>Servidor principal</li>
+            <li>Switch multicapa</li>
+            <li>Switches de acceso</li>
+            <li>Router</li>
+            <li>Puntos de acceso WiFi</li>
+            <li>SAI</li>
+            <li>RAID 5</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Redes</h3>
+          <ul>
+            <li>Cisco Packet Tracer</li>
+            <li>VLANs</li>
+            <li>Enrutamiento inter-VLAN</li>
+            <li>Enlaces trunk</li>
+            <li>WiFi corporativa e invitados</li>
+            <li>Segmentación lógica por departamentos</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Sistemas</h3>
+          <ul>
+            <li>Windows Server 2022</li>
+            <li>Windows 11 Pro</li>
+            <li>Ubuntu Desktop</li>
+            <li>Kali Linux</li>
+            <li>VirtualBox</li>
+            <li>Active Directory</li>
+            <li>DNS</li>
+            <li>Servidor de archivos</li>
+            <li>Servidor de impresión</li>
+            <li>FTP</li>
+            <li>IIS</li>
+            <li>RDP</li>
+            <li>PowerShell</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Bases de datos y nube</h3>
+          <ul>
+            <li>MySQL / MariaDB</li>
+            <li>SQL</li>
+            <li>phpMyAdmin</li>
+            <li>AWS</li>
+            <li>Amazon EC2</li>
+            <li>Amazon S3</li>
+            <li>Amazon RDS (MySQL)</li>
+            <li>Amazon VPC</li>
+            <li>Apache</li>
+            <li>AWS CLI</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Lenguaje de marcas</h3>
+          <ul>
+            <li>XML</li>
+            <li>DTD</li>
+            <li>XSLT</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="aprendizajes">
+    <h2>Aprendizajes del proyecto</h2>
+      <p>
+        El desarrollo de este proyecto me ha permitido entender de una forma mucho más
+        práctica cómo se diseña, organiza e implanta una infraestructura IT completa.
+      </p>
+      <p>
+        He aprendido a relacionar áreas que en otros contextos suelen verse por separado,
+        como el hardware, la red, los sistemas, los servicios corporativos, las bases de
+        datos y la nube. Gracias a ello, he podido ver cómo cada parte influye en las demás
+        y cómo todas deben encajar para que el sistema funcione de forma coherente.
+      </p>
+      <p>
+        También he reforzado conocimientos en administración de sistemas, especialmente en
+        el uso de <strong>Active Directory</strong>, la gestión de usuarios y permisos, la
+        implantación de servicios de red y la organización de un entorno cliente-servidor.
+        En la parte de redes, he comprendido mejor la importancia de la segmentación mediante
+        <strong>VLANs</strong> y la estructura de una red empresarial.
+      </p>
+      <p>
+        Además, este proyecto me ha servido para descubrir que, aparte de la ciberseguridad,
+        también me interesa el trabajo relacionado con <strong>bases de datos</strong> y
+        <strong>análisis de datos</strong>, ya que la parte de modelado, organización de la
+        información y consultas me ha resultado bastante interesante.
+      </p>
+      <p>
+        Por último, una de las partes más importantes que me llevo del proyecto es la mejora
+        en la <strong>resolución de problemas</strong>, ya que al trabajar una infraestructura
+        tan amplia han ido apareciendo errores e incidencias que me han obligado a investigar,
+        probar soluciones y entender mejor el funcionamiento real de cada tecnología utilizada.
+      </p>
+    </section>
+
+    <section class="card" id="repositorio">
+      <h2>Repositorio</h2>
+      <p>
+        En este enlace se puede consultar el repositorio del proyecto y su documentación:
+      </p>
+      <p>
+        <a class="repo-link" href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          Ir al repositorio en GitHub
+        </a>
+      </p>
+         </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Portfolio básico · Joaquín Luis García García · ASIR</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "inventario": {
+    "club": "Almería CF",
+    "fecha": "2026-01-01",
+    "items": [
+      {
+        "id": "srv01",
+        "nombre": "Servidor principal",
+        "tipoRef": "t01",
+        "ubicacionRef": "u01",
+        "proveedorRef": "p01",
+        "estado": "operativo",
+        "modelo": "Dell PowerEdge R640 Intel Xeon Silver",
+        "cantidad": 1,
+        "funcion": "Servidor central del club",
+        "costeUnidad": {
+          "valor": 1185,
+          "moneda": "EUR"
+        }
+      },
+      {
+        "id": "swcore01",
+        "nombre": "Switch core",
+        "tipoRef": "t02",
+        "ubicacionRef": "u02",
+        "proveedorRef": "p01",
+        "estado": "operativo",
+        "modelo": "Cisco Catalyst 3560",
+        "cantidad": 1,
+        "funcion": "Núcleo de red y enrutamiento interno",
+        "costeUnidad": {
+          "valor": 300,
+          "moneda": "EUR"
+        }
+      },
+      {
+        "id": "router01",
+        "nombre": "Router corporativo",
+        "tipoRef": "t04",
+        "ubicacionRef": "u01",
+        "proveedorRef": "p01",
+        "estado": "mantenimiento",
+        "modelo": "Cisco 2911 Integrated Services",
+        "cantidad": 1,
+        "funcion": "Salida a Internet y NAT",
+        "costeUnidad": {
+          "valor": 400,
+          "moneda": "EUR"
+        }
+      },
+      {
+        "id": "ap01",
+        "nombre": "Puntos de acceso WiFi",
+        "tipoRef": "t05",
+        "ubicacionRef": "u03",
+        "proveedorRef": "p01",
+        "estado": "operativo",
+        "modelo": "Cisco Catalyst 9105AXI-Z",
+        "cantidad": 2,
+        "funcion": "Conectividad inalámbrica en salas de reuniones",
+        "costeUnidad": {
+          "valor": 170,
+          "moneda": "EUR"
+        }
+      },
+      {
+        "id": "ups01",
+        "nombre": "SAI del CPD",
+        "tipoRef": "t06",
+        "ubicacionRef": "u01",
+        "proveedorRef": "p01",
+        "estado": "operativo",
+        "modelo": "APC Smart-UPS 1500VA SMT1500I",
+        "cantidad": 1,
+        "funcion": "Suministro eléctrico de respaldo",
+        "costeUnidad": {
+          "valor": 600,
+          "moneda": "EUR"
+        }
+      }
+    ]
+  }
+}
