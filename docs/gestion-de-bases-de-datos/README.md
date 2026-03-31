@@ -12,8 +12,8 @@
 - [Diagrama Entidad-Relación](diagramas/modelo%20entidad%20relacion.drawio.svg)
 - [Modelo relacional](diagramas/modelo%20relacional.drawio.svg)
 
-- [Scripts SQL](script-creacion-base_datos.sql)
-  - [Creación de la base de datos](script-creacion-base_datos.sql)
+- [Scripts SQL]
+  - [Creación de la base de datos](script-creacion-base-datos.sql)
   - [Inserción de datos](script-insercion-datos.sql)
   - [Consultas SQL](script-consultas.sql)
   - [Permisos](script-permisos.sql)

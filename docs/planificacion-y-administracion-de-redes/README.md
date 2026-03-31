@@ -6,11 +6,9 @@
 
 ## Índice
 
-- [Descripción del proyecto](#descripción-del-proyecto)
-- [Diseño de la red](#diseño-de-la-red)
-- [Direccionamiento IP](#direccionamiento-ip)
-- [Servicios y configuraciones implementadas](#servicios-y-configuraciones-implementadas)
-- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Configuraciones Relevantes](configuraciones-relevantes.md)
+- [Direccionamiento IP](Direccionamiento-ip.md)
+- [Esquema físico y lógico](esquema-fisico-y-logico.md)
 
 Este directorio recoge los documentos correspondientes al módulo de **Planificación y Administración de Redes**, dentro del proyecto intermodular de **1º ASIR**.
 

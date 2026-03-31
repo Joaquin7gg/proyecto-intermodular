@@ -104,7 +104,7 @@ Esta configuración encaja muy bien en **Prensa y Marketing**, donde puede ser n
 
 <div align="center">
 
-<img src="capturas/7.png" width="700">
+<img src="capturas/7.png" width="500">
 </div>
 
 <div align="center">
@@ -218,7 +218,7 @@ Este equipo a medida no sería lógico para todos los usuarios, pero sí como pu
 
 <div align="center">
 
-<img src="capturas/11.png" width="700">
+<img src="capturas/11.png" width="500">
 </div>
 
 <div align="center">

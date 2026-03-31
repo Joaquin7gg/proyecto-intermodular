@@ -6,8 +6,7 @@
 
 ## Índice
 
-- [Datos representados en el XML](#1-datos-representados-en-el-xml)
-- [Validación del XML mediante DTD](#2-validación-del-xml-mediante-dtd)
+- [Validación del XML mediante DTD](#validación-del-xml-mediante-dtd)
 - [Evidencia de que el DTD funciona](#evidencia-de-que-el-dtd-funciona)
 - [Transformación XSL para visualizar HTML](#transformación-xsl-para-visualizar-html)
 - [Proceso de transformación XLST](#proceso-de-transformación)
@@ -22,7 +21,7 @@ El archivo [inventario.xml](../xml/inventario.xml) representa el **inventario te
 
 Este inventario forma parte del **proyecto intermodular** y se utiliza en varios módulos del ciclo formativo, como **Redes**, **Bases de Datos** y **Hardware**.
 
-Además, constituye una pieza fundamental de la **intranet del club**, también incluida en este módulo. Esta intranet está integrada en el módulo de **Implantación de Sistemas Operativos** mediante **Active Directory**, lo que permite gestionar el acceso de los usuarios. De este modo, cada usuario puede acceder a la página de su departamento en la intranet con sus credenciales y, dependiendo de los permisos, podrá o no visualizar la web del departamento. 
+Además, constituye una pieza fundamental de la **intranet del club**, también incluida en este módulo y que se puede ver en este [enlace](https://intranet-almeria.netlify.app/). Esta intranet está integrada en el módulo de **Implantación de Sistemas Operativos** mediante **Active Directory**, lo que permite gestionar el acceso de los usuarios. De este modo, cada usuario puede acceder a la página de su departamento en la intranet con sus credenciales y, dependiendo de los permisos, podrá o no visualizar la web del departamento. 
 
 Debido a esta conexión con **Active Directory**, se incluye una página de error personalizada para cuando un usuario accede de manera incorrecta en un sitio al que no tiene acceso por permisos. Esta página se encuentra en la carpeta [errors](../errors/403.html).
 
@@ -208,7 +207,8 @@ inventario tecnológico dentro de la misma estética del sitio web, garantizando
 
 El resultado final es una página web que muestra la información del inventario del club de forma clara y estructurada, permitiendo consultar fácilmente los distintos elementos que forman parte de la infraestructura tecnológica.
 
-Mediante **las capturas incluidas en la carpeta docs**, se puede [ver](../docs/sin-transformacion.png) como sería el archivo XML sin aplicar una transformación XSLT. Sin embargo, si se aplica correctamente, [Aqui](../docs/transformado.png), se aprecia un resultado más que satisfactorio, ya que como se ha dicho antes, ahora se aprovecha del estilo CSS creado.
+Mediante **las capturas incluidas en la carpeta docs**, se puede [ver](../docs-lenguaje/sin-transformacion.png) como sería el archivo XML sin aplicar una transformación XSLT. Sin embargo, si se aplica correctamente, [Aqui](../docs-lenguaje/transformado.png), se aprecia un resultado más que satisfactorio, ya que como se ha dicho antes, ahora se aprovecha del estilo CSS creado.
+
 
 ## Tecnologías y servicios utilizados
 

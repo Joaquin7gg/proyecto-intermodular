@@ -28,6 +28,6 @@ Portfolio en formato web, donde se muestra una presentación visual del proyecto
 
 **Carpeta:** [portfolio/](portfolio/)
 
- Enlace aqui.
+ En este [enlace](https://portfolio-joaquingg.netlify.app/) se puede visualizar el portfolio en formato web.
 
 ---
