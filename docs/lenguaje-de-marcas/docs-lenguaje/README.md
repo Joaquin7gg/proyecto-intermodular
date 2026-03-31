@@ -100,7 +100,7 @@ Nuestro inventario.xml está perfectamente validado tal y como se [muestra](../d
 
 ## Evidencia de que el DTD funciona
 
-Para comprobar que nuestro DTD funciona correctamente, se ha añadido un inventario falso en el que se han cometido errores adrede y así ver como el DTD trabaja. [Aquí](..\docs-lenguaje\validacion-nula.png) se muestra una prueba de ello.
+Para comprobar que nuestro DTD funciona correctamente, se ha añadido un inventario falso en el que se han cometido errores adrede y así ver como el DTD trabaja. En esta [captura](..\docs-lenguaje\nulo.png) se muestra una prueba de ello.
 En esta captura, tomada desde Visual Studio Code, el mismo editor informa de los problemas: 
 
 ### 1- La ubicación u99 no existe

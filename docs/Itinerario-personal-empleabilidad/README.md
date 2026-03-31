@@ -1,5 +1,5 @@
 **Proyecto:** Proyecto Intermodular 1º ASIR<br>
-**Módulo:** Itinerario personal de empleabilidad<br>
+**Módulo:** Itinerario personal para la Empleabilidad<br>
 **Alumno:** Joaquín Luis García García
 
 ---
