@@ -1,14 +1,14 @@
 ### Índice
 
-1. [Introducción](#introducción)  
-2. [Minsait (área de data)](#1-minsait-área-de-data)  
-3. [S2 Grupo (área de ciberseguridad)](#2-s2-grupo-área-de-ciberseguridad)  
-4. [Pearl Abyss (área de videojuegos)](#3-pearl-abyss-área-de-videojuegos)  
-5. [Perfiles profesionales a seguir](#4-perfiles-profesionales-a-seguir)  
+- [Introducción](#introducción)  
+- [Minsait (área de data)](#1-minsait-área-de-data)  
+- [S2 Grupo (área de ciberseguridad)](#2-s2-grupo-área-de-ciberseguridad)  
+- [Pearl Abyss (área de videojuegos)](#3-pearl-abyss-área-de-videojuegos)  
+- [Perfiles profesionales a seguir](#4-perfiles-profesionales-a-seguir)  
    - [MinoTauro2020 – perfil orientado a ciberseguridad](#41-minotauro2020--perfil-orientado-a-ciberseguridad)  
    - [juanhdezz – perfil orientado a data](#42-juanhdezz--perfil-orientado-a-data)  
-6. [Valoración personal](#valoración-personal)  
-7. [Conclusión](#conclusión)  
+- [Valoración personal](#valoración-personal)  
+- [Conclusión](#conclusión)  
 
 ## Investigación del sector profesional
 
@@ -18,7 +18,7 @@ Por un lado, la **ciberseguridad** me interesa por su relación con la protecci�
 
 Además, también he querido fijarme en **empresas españolas**, ya que me parece importante tener en cuenta el **producto nacional** y conocer mejor qué oportunidades reales existen dentro del mercado tecnológico de aquí. Aun así, también he incluido una empresa internacional en el sector de los videojuegos que, creo, realiza un gran trabajo en sus productos.
 
-### 1. Minsait (área de data)
+### Minsait (área de data)
 
 **Qué hace la empresa**  
 Minsait, empresa del grupo Indra, trabaja en transformación digital y cuenta con líneas relacionadas con **data**, **analítica** e **inteligencia artificial**. Es una empresa que participa en proyectos tecnológicos orientados al tratamiento de datos y a la obtención de valor a partir de la información.
@@ -31,7 +31,7 @@ En este ámbito, su actividad se relaciona con tecnologías y conocimientos como
 
 ---
 
-### 2. S2 Grupo (área de ciberseguridad)
+### S2 Grupo (área de ciberseguridad)
 
 **Qué hace la empresa**  
 S2 Grupo es una **empresa española especializada en ciberseguridad**, ciberinteligencia y protección de sistemas. Está centrada en la seguridad de infraestructuras y en la prevención, detección y respuesta ante amenazas.
@@ -44,7 +44,7 @@ Por el tipo de trabajo que realiza, es una empresa vinculada al uso de herramien
 
 ---
 
-### 3. Pearl Abyss (área de videojuegos)
+### Pearl Abyss (área de videojuegos)
 
 **Qué hace la empresa**  
 Pearl Abyss es una empresa del sector de los **videojuegos**, conocida por el desarrollo de títulos como **Black Desert** y otros proyectos del mismo ámbito. Se dedica tanto al desarrollo de videojuegos como al mantenimiento de la tecnología y los servicios que los hacen funcionar.
@@ -61,11 +61,11 @@ En este sector se utilizan tecnologías relacionadas con la **programación**, m
 
 Después de realizar esta pequeña investigación, considero que, probablemente, mi perfil actual encaja de una forma más directa con la parte de **sistemas y ciberseguridad**. Aun así, también me resulta interesante todo lo relacionado con **análisis de datos** y el sector de los videojuegos, que me sigue llamando la atención por todo el trabajo técnico que hay detrás. En general, esta investigación me ha servido para conocer mejor qué tipo de empresas existen en estos sectores y qué perfiles profesionales pueden encontrarse en cada uno de ellos.
 
-### 4. Perfiles profesionales a seguir
+### Perfiles profesionales a seguir
 
 Además de investigar empresas, también he buscado dos perfiles profesionales en **GitHub** relacionados con áreas que me interesan, especialmente **ciberseguridad** y **data**. Considero que seguir este tipo de perfiles es útil porque permite ver de forma práctica qué tipo de proyectos realizan, qué herramientas utilizan y qué habilidades destacan dentro de su trayectoria profesional.
 
-#### 4.1. MinoTauro2020 – perfil orientado a ciberseguridad
+#### MinoTauro2020 – perfil orientado a ciberseguridad
 
 **Qué hace**  
 [**MinoTauro2020**](https://github.com/MinoTauro2020) es un perfil claramente orientado a la **ciberseguridad**. En su presentación de GitHub se define como una persona apasionada por la seguridad informática, con experiencia en identificación y documentación de vulnerabilidades. Además, muestra un enfoque bastante amplio dentro del sector, incluyendo áreas como Red Team, Blue Team, Threat Hunting y análisis forense.
@@ -78,7 +78,7 @@ En su perfil destacan habilidades como **Python**, **Bash**, **PowerShell**, **W
 
 ---
 
-#### 4.2. juanhdezz – perfil orientado a data
+#### juanhdezz – perfil orientado a data
 
 **Qué hace**  
 Juan Hernández, en GitHub como [**juanhdezz**](https://github.com/juanhdezz), se presenta como **Data Scientist | AI/Automation Engineer** y figura en **Granada, Andalucía, España**. En su perfil indica además que está especializado en el mundo de los datos, desde la ingeniería de datos y la analítica hasta la ciencia de datos y la inteligencia artificial. Se trata de un perfil joven y que, al igual que MinoTauro2020, es un modelo a seguir.

@@ -23,7 +23,7 @@
 - [Lenguaje de Marcas](docs/lenguaje-de-marcas/docs-lenguaje/README.md)
 - [Fundamentos del Hardware](docs/fundamentos-de-hardware/README.md)
 - [Computación en la Nube](docs/MPO-cloud/README.md)
-- [Itinerario Personal para la Empleabilidad I](docs/Itinerario-personal-empleabilidad/README.md)
+- [Itinerario Personal para la Empleabilidad](docs/Itinerario-personal-empleabilidad/README.md)
 - [Implantación de Sistemas Operativos](docs/implantacion-de-sistemas-operativos/README.md)
 
 ---

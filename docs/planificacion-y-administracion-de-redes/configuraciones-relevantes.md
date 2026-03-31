@@ -639,7 +639,7 @@ De esta forma, el switch multicapa actúa como servidor DHCP para todas las VLAN
 
 <div align="center">
 
-<img src="capturas/DHCP/1.png" width="1200">
+<img src="capturas/dhcp/1.png" width="1200">
 
 </div>
 
@@ -658,7 +658,7 @@ La asignación automática de estos valores confirma que el servidor DHCP config
 
 <div align="center">
 
-<img src="capturas/DHCP/2.png" width="1200">
+<img src="capturas/dhcp/2.png" width="1200">
 
 </div>
 
@@ -1288,7 +1288,7 @@ Para comprobar el correcto funcionamiento, se realizó una prueba. Un empleado a
 
 <div align="center">
 
-*Capturas que demuestran el buen funcionamiento de la impresora*
+*Capturas que demuestran el buen funcionamiento de la impresora.*
 
 </div>
 

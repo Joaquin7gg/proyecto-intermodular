@@ -9,10 +9,10 @@
 - [Descripción del proyecto](#descripción-del-proyecto)
 - [Diseño de la base de datos](#diseño-de-la-base-de-datos)
 
-- [Diagrama Entidad-Relación](diagramas/modelo%20entidad%20relacion.drawio.svg)
-- [Modelo relacional](diagramas/modelo%20relacional.drawio.svg)
+- [Diagrama Entidad-Relación](diagramas/modelo-entidad-relacion.drawio.svg)
+- [Modelo relacional](diagramas/modelo-relacional.drawio.svg)
 
-- [Scripts SQL]
+- **Scripts SQL**
   - [Creación de la base de datos](script-creacion-base-datos.sql)
   - [Inserción de datos](script-insercion-datos.sql)
   - [Consultas SQL](script-consultas.sql)

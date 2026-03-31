@@ -1,6 +1,6 @@
 ## Estimación de costes de la infraestructura
 
-Para estimar el coste de la infraestructura desplegada se ha utilizado la herramienta oficial [**AWS Pricing Calculator**](https://calculator.aws/), que permite calcular el gasto mensual en función de los recursos utilizados.
+Para estimar el coste de la infraestructura desplegada se ha utilizado la herramienta oficial <a href="https://calculator.aws/" target="_blank" rel="noopener noreferrer"><strong>AWS Pricing Calculator</strong></a>, que permite calcular el gasto mensual en función de los recursos utilizados.
 
 La arquitectura implementada está compuesta por:
 

@@ -1,5 +1,9 @@
+/* Creación de la base de datos */
+
 CREATE DATABASE club_futbol;
 USE club_futbol;
+
+/* Creación de tablas */
 
 CREATE TABLE planta (
     id_planta INT AUTO_INCREMENT PRIMARY KEY,

@@ -2,13 +2,13 @@
 
 ## Índice
 
-1. [Servidor de archivos](#servidor-de-archivos)
-2. [Servidor de impresión](#servidor-de-impresión)
-3. [Servidor FTP](#servidor-ftp)
-4. [Intranet](#intranet)
-5. [Scripts de administración](#scripts-de-administración)
-6. [Escritorio Remoto](#escritorio-remoto)
-7. [Raid 5](#raid-5)
+- [Servidor de archivos](#servidor-de-archivos)
+- [Servidor de impresión](#servidor-de-impresión)
+- [Servidor FTP](#servidor-ftp)
+- [Intranet](#intranet)
+- [Scripts de administración](#scripts-de-administración)
+- [Escritorio Remoto](#escritorio-remoto)
+- [Raid 5](#raid-5)
 
 ---
 

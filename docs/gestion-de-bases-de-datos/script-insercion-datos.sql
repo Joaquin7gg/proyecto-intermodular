@@ -1,12 +1,12 @@
---Inserción de datos
+/* Inserción de datos */
 
---Plantas
+/* Plantas */
 
 INSERT INTO planta (nombre) VALUES
 ('Atención al público - 1'),
 ('Dirección y CPD - 2');
 
---Departamentos
+/* Departamentos */
 
 INSERT INTO departamento (id_planta, nombre) VALUES
 (1, 'Recepción'),
@@ -20,7 +20,7 @@ INSERT INTO departamento (id_planta, nombre) VALUES
 (2, 'Sala reuniones planta 2'),
 (2, 'CPD');
 
---Empleados
+/* Empleados */
 
 INSERT INTO empleado (id_departamento, nombre_completo) VALUES
 (1, 'Alba Martín'),
@@ -52,7 +52,7 @@ INSERT INTO empleado (id_departamento, nombre_completo) VALUES
 (7, 'Rubén Morales');
 
 
---VLAN
+/* VLAN */
 
 INSERT INTO vlan (numero_vlan, nombre, red) VALUES
 (10, 'Dirección y Finanzas', '192.168.10.0/24'),
@@ -65,58 +65,58 @@ INSERT INTO vlan (numero_vlan, nombre, red) VALUES
 (80, 'WLAN_invitados', '192.168.80.0/24'),
 (99, 'Gestión IT', '192.168.99.0/24');
 
---Dispositivos por departamentos
+/* Dispositivos por departamentos */
 
---Dirección y Finanzas (VLAN 10)
+/*Dirección y Finanzas (VLAN 10)*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (6,1,NULL,'pc_corporativo','pc_finanzas_01'),
 (6,1,NULL,'pc_corporativo','pc_finanzas_02'),
 (6,1,NULL,'pc_corporativo','pc_finanzas_03'),
 (6,1,NULL,'pc_corporativo','pc_finanzas_04');
 
---Prensa y Marketing (VLAN 20)
+/*Prensa y Marketing (VLAN 20)*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (4,2,NULL,'equipo_diseno','pc_diseno_marketing_01'),
 (4,2,NULL,'equipo_diseno','pc_diseno_marketing_02'),
 (4,2,NULL,'pc_corporativo','pc_marketing_01');
 
---Recepción (VLAN 40)
+/*Recepción (VLAN 40)*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (1,4,NULL,'pc_corporativo','pc_recepcion_01'),
 (1,4,NULL,'pc_corporativo','pc_recepcion_02');
 
---Taquilla y atención al socio (VLAN 40)
+/*Taquilla y atención al socio (VLAN 40)*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (2,4,NULL,'pc_corporativo','pc_taquilla_01'),
 (2,4,NULL,'pc_corporativo','pc_taquilla_02'),
 (2,4,NULL,'pc_corporativo','pc_taquilla_03');
 
---Tienda oficial (VLAN 50)
+/*Tienda oficial (VLAN 50)*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (3,5,NULL,'pc_corporativo','pc_tienda_01'),
 (3,5,NULL,'pc_corporativo','pc_tienda_02');
 
---Cuerpo Técnico (VLAN 60)
+/*Cuerpo Técnico (VLAN 60)*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (7,6,NULL,'pc_corporativo','pc_tecnico_01'),
 (7,6,NULL,'pc_corporativo','pc_tecnico_02'),
 (7,6,NULL,'pc_corporativo','pc_tecnico_03'),
 (7,6,NULL,'pc_corporativo','pc_tecnico_04');
 
---Soporte IT (VLAN 99)
+/*Soporte IT (VLAN 99)*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (5,9,NULL,'workstation','ws_it_01'),
 (5,9,NULL,'workstation','ws_it_02'),
 (5,9,NULL,'workstation','ws_it_03');
 
---Sala de reuniones planta 1
+/*Sala de reuniones planta 1*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (8,7,NULL,'portatil','laptop_sala1_01'),
 (8,7,NULL,'portatil','laptop_sala1_02'),
 (8,7,NULL,'portatil','laptop_sala1_03'),
 (8,7,NULL,'television','tv_sala1');
 
---Sala de reuniones planta 2
+/*Sala de reuniones planta 2*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (9,7,NULL,'portatil','laptop_sala2_01'),
 (9,7,NULL,'portatil','laptop_sala2_02'),
@@ -124,14 +124,14 @@ INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispos
 (9,7,NULL,'television','tv_sala2'),
 (9,7,NULL,'punto_acceso','ap_sala2');
 
---CPD (infraestructura)
+/*CPD (infraestructura)*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (10,9,NULL,'router','router_corporativo'),
 (10,9,NULL,'switch_core','switch_core'),
 (10,9,NULL,'switch_acceso','switch_acceso_cpd'),
 (10,9,NULL,'controladora_wifi','wlc_2504');
 
---Impresoras
+/*Impresoras*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (8,3,'192.168.30.201','impresora','impresora_sala1'),
 (1,3,'192.168.30.202','impresora','impresora_recepcion'),
@@ -139,7 +139,7 @@ INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispos
 (6,3,'192.168.30.204','impresora','impresora_finanzas'),
 (9,3,'192.168.30.205','impresora','impresora_sala2');
 
---Servidores
+/*Servidores*/
 INSERT INTO dispositivo (id_departamento,id_vlan,direccion_ip,tipo,nombre_dispositivo) VALUES
 (10,3,'192.168.30.11','servidor','srv_principal'),
 (10,3,'192.168.30.12','servidor','srv_backup');

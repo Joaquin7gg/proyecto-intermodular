@@ -9,7 +9,6 @@
 - [Configuración de hardware propuesta](Configuración-de-hardware-propuesta.md)
 - [Explicación del sistema de almacenamiento](Explicación-del-sistema-de-almacenamiento.md)
 - [Reflexión](reflexion.md)
-- [Capturas](capturas/)
 
 ## Descripción
 

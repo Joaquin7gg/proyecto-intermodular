@@ -2,14 +2,14 @@
 
 ## Índice
 
-1. [Introducción](#1-introducción)
-2. [Implantación en entorno simulado](#2-implantación-en-entorno-simulado)
-3. [Implantación en un entorno real](#3-implantación-en-un-entorno-real)
-4. [Instalación del servidor](#4-instalación-del-servidor)
-5. [Instalación de los equipos cliente](#5-instalación-de-los-equipos-cliente)
-6. [Sistemas operativos implantados](#6-sistemas-operativos-implantados)
-7. [Integración en la infraestructura](#7-integración-en-la-infraestructura)
-8. [Validación del sistema](#8-validación-del-sistema)
+- [Introducción](#1-introducción)
+- [Implantación en entorno simulado](#2-implantación-en-entorno-simulado)
+- [Implantación en un entorno real](#3-implantación-en-un-entorno-real)
+- [Instalación del servidor](#4-instalación-del-servidor)
+- [Instalación de los equipos cliente](#5-instalación-de-los-equipos-cliente)
+- [Sistemas operativos implantados](#6-sistemas-operativos-implantados)
+- [Integración en la infraestructura](#7-integración-en-la-infraestructura)
+- [Validación del sistema](#8-validación-del-sistema)
 
 ---
 

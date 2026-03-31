@@ -2,10 +2,10 @@
 
 ## Índice
 
-1. [Organización del dominio mediante Unidades Organizativas](#organización-del-dominio-mediante-unidades-organizativas)
-2. [Creación de grupos de seguridad](#creación-de-grupos-de-seguridad)
-3. [Asignación de permisos a carpetas](#asignación-de-permisos-a-carpetas)
-4. [Comprobación de acceso desde los equipos cliente](#comprobación-de-acceso-desde-los-equipos-cliente)
+- [Organización del dominio mediante Unidades Organizativas](#organización-del-dominio-mediante-unidades-organizativas)
+- [Creación de grupos de seguridad](#creación-de-grupos-de-seguridad)
+- [Asignación de permisos a carpetas](#asignación-de-permisos-a-carpetas)
+- [Comprobación de acceso desde los equipos cliente](#comprobación-de-acceso-desde-los-equipos-cliente)
 
 ---
 

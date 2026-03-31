@@ -6,12 +6,12 @@
 
 # Índice
 
-1. [Plan de implantación](plan-de-implantación.md)
-2. [Documentación de la instalación del sistema](documentación-de-la-instalación-del-sistema.md)
-3. [Análisis del sistema operativo](analisis-sistema-operativo.md)
-4. [Explicación de la configuración del sistema](Explicación-de-la-configuración-del-sistema.md)
-5. [Gestión de usuarios y permisos](gestión-de-usuarios-y-permisos.md)
-6. [Descripción de servicios configurados](descripción-de-servicios-configurados.md)
+- [Plan de implantación](plan-de-implantación.md)
+- [Documentación de la instalación del sistema](documentación-de-la-instalación-del-sistema.md)
+- [Análisis del sistema operativo](analisis-sistema-operativo.md)
+- [Explicación de la configuración del sistema](Explicación-de-la-configuración-del-sistema.md)
+- [Gestión de usuarios y permisos](gestión-de-usuarios-y-permisos.md)
+- [Descripción de servicios configurados](descripción-de-servicios-configurados.md)
 
 
 Este directorio recoge los documentos correspondientes al módulo de **Implementación de sistemas operativos**, dentro del proyecto intermodular de **1º ASIR**, donde se documenta el proceso de **implantación de una infraestructura cliente-servidor** para un club deportivo ficticio.  

@@ -2,8 +2,8 @@
 
 ## Índice
 
-1. [Active Directory](#active-directory)
-2. [Integración de equipos cliente en el dominio](#integración-de-equipos-cliente-en-el-dominio)
+- [Active Directory](#active-directory)
+- [Integración de equipos cliente en el dominio](#integración-de-equipos-cliente-en-el-dominio)
 
 ---
 

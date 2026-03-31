@@ -6,7 +6,7 @@
 
 ## Índice
 
-- [Documento de investigación del proveedor cloud](proveedor-cloud.md)
+- [Proveedor cloud](proveedor-cloud.md)
 - [Explicación de la arquitectura propuesta](arquitectura-elegida.md)
 - [Diagrama de la arquitectura](diagrama-arquitectura.md)
 - [Estimación de costes de la infraestructura](costes.md)

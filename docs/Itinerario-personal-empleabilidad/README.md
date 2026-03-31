@@ -6,11 +6,11 @@
 
 ## Índice
 
-- [Perfil profesional personal](perfil-profesional)
-- [Investigación del sector profesional](sector-profesional)
-- [Presentación profesional del proyecto](presentación-del-proyecto)
-- [Portfolio](#portfolio-básico)
-- [Reflexión personal](#reflexión-personal)
+- [Perfil profesional personal](perfil-profesional.md)
+- [Investigación del sector profesional](sector-profesional.md)
+- [Presentación profesional del proyecto](presentación-del-proyecto.md)
+- <a href="https://portfolio-joaquingg.netlify.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+- [Reflexión personal](#reflexión-personal.md)
 
 ---
 
@@ -28,6 +28,6 @@ Portfolio en formato web, donde se muestra una presentación visual del proyecto
 
 **Carpeta:** [portfolio/](portfolio/)
 
- En este [enlace](https://portfolio-joaquingg.netlify.app/) se puede visualizar el portfolio en formato web.
+ En este <a href="https://portfolio-joaquingg.netlify.app/" target="_blank" rel="noopener noreferrer">enlace</a> se puede visualizar el portfolio en formato web.
 
 ---

@@ -2,17 +2,16 @@
 
 ## Índice
 
-1. [Objetivo del entorno](#1-objetivo-del-entorno)
-2. [Sistema operativo del servidor](#2-sistema-operativo-del-servidor)
-3. [Sistemas operativos cliente](#3-sistemas-operativos-cliente)
-4. [Uso de sistemas Linux en el entorno corporativo](#4-uso-de-sistemas-linux-en-el-entorno-corporativo)
-5. [Kali Linux como herramienta de auditoría](#5-kali-linux-como-herramienta-de-auditoría)
-6. [Conclusión](#6-conclusión)
-7. [Dual Boot](#dual-boot)
-
+- [Objetivo del entorno](#objetivo-del-entorno)
+- [Sistema operativo del servidor](#sistema-operativo-del-servidor)
+- [Sistemas operativos cliente](#sistemas-operativos-cliente)
+- [Uso de sistemas Linux en el entorno corporativo](#uso-de-sistemas-linux-en-el-entorno-corporativo)
+- [Kali Linux como herramienta de auditoría](#kali-linux-como-herramienta-de-auditoría)
+- [Dual Boot](#dual-boot)
+- [Conclusión](#conclusión)
 ---
 
-## 1. Objetivo del entorno
+## Objetivo del entorno
 
 El objetivo de esta implantación es construir un entorno cliente-servidor realista, seguro y escalable, alineado con las necesidades de una organización estructurada por departamentos y con una administración centralizada de recursos y usuarios.
 
@@ -20,7 +19,7 @@ Para la implantación de los sistemas operativos del entorno cliente-servidor se
 
 ---
 
-## 2. Sistema operativo del servidor
+## Sistema operativo del servidor
 
 Como sistema operativo del servidor se ha seleccionado **Windows Server 2022 Standard**, desplegado en una máquina virtual mediante VirtualBox, simulando el servidor central ubicado en el CPD de la organización.
 
@@ -36,7 +35,7 @@ Este servidor actúa como núcleo de la infraestructura de sistemas, integrándo
 
 ---
 
-## 3. Sistemas operativos cliente
+## Sistemas operativos cliente
 
 Para los equipos de usuario final se ha elegido **Windows 11 Pro** como sistema operativo principal en la mayoría de los puestos de trabajo.
 
@@ -54,7 +53,7 @@ Estos puestos requieren un sistema operativo estable, fácil de usar y optimizad
 
 ---
 
-## 4. Uso de sistemas Linux en el entorno corporativo
+## Uso de sistemas Linux en el entorno corporativo
 
 Además de los sistemas Windows, se ha decidido incorporar **sistemas operativos basados en Linux** con el objetivo de reflejar un entorno empresarial más realista, ya que muchas organizaciones utilizan Linux en determinados departamentos especializados.
 
@@ -66,7 +65,7 @@ Por último, en los demás equipos de IT, el personal dispone de Ubuntu Desktop 
 
 ---
 
-## 5. Kali Linux como herramienta de auditoría
+## Kali Linux como herramienta de auditoría
 
 De forma adicional, se ha incorporado **Kali Linux**, un sistema especializado de seguridad, en un equipo extra para el personal del departamento de IT. Gracias a este sistema operativo, los integrantes de IT podrán realizar tareas como:
 
@@ -78,10 +77,6 @@ De forma adicional, se ha incorporado **Kali Linux**, un sistema especializado d
 La utilización de Kali Linux permite simular un entorno profesional en el que el departamento de sistemas también realiza tareas básicas de auditoría y comprobación de la seguridad de la infraestructura.
 
 ---
-
-## 6. Conclusión
-
-De esta forma, la combinación de **Windows Server 2022, Windows 11 Pro y sistemas Linux** permite construir un entorno cliente-servidor moderno, seguro y escalable, alineado con la segmentación de red definida mediante VLANs y con las necesidades específicas de cada departamento. Esta elección garantiza una infraestructura equilibrada, realista y preparada para futuras ampliaciones o migraciones tecnológicas.
 
 ## Dual Boot
 
@@ -112,3 +107,7 @@ Uno de los equipos de soporte cuenta con arranque dual entre **Windows 11 Pro y 
 *Durante la instalación de Ubuntu se eligió instalarlo junto a Windows. La segunda captura muestra el gestor de arranque GRUB, que permite seleccionar el sistema operativo deseado.*
 
 </div>
+
+## Conclusión
+
+De esta forma, la combinación de **Windows Server 2022, Windows 11 Pro y sistemas Linux** permite construir un entorno cliente-servidor moderno, seguro y escalable, alineado con la segmentación de red definida mediante VLANs y con las necesidades específicas de cada departamento. Esta elección garantiza una infraestructura equilibrada, realista y preparada para futuras ampliaciones o migraciones tecnológicas. Además, la implementación de un ordenador con Dual Boot aporta una gran diversidad al ecosistema de sistemas operativos instalados.

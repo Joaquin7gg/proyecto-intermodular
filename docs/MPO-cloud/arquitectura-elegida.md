@@ -1,18 +1,18 @@
 # Índice
 
-1. [Visión general de la arquitectura](#1-visión-general-de-la-arquitectura)
-2. [Infraestructura local (on-premise)](#2-infraestructura-local-on-premise)
-3. [Infraestructura cloud (AWS)](#3-infraestructura-cloud-aws)
-   1. [Red (VPC)](#red-vpc)
-   2. [Instancia virtual (EC2)](#instancia-virtual-ec2)
-      1. [Prueba de conectividad SSH](#prueba-de-conectividad-ssh)
-4. [Servicios desplegados en la nube](#4-servicios-desplegados-en-la-nube)
-   1. [DNS en la nube](#dns-en-la-nube)
-   2. [Almacenamiento (S3)](#almacenamiento-s3)
-   3. [Base de datos RDS](#base-de-datos-rds)
-   4. [Servicio web](#servicio-web)
-5. [Funcionamiento de la arquitectura](#6-funcionamiento-de-la-arquitectura)
-6. [Conclusión](#7-conclusión)
+- [Visión general de la arquitectura](#1-visión-general-de-la-arquitectura)
+- [Infraestructura local (on-premise)](#2-infraestructura-local-on-premise)
+- [Infraestructura cloud (AWS)](#3-infraestructura-cloud-aws)
+      [Red (VPC)](#red-vpc)
+      [Instancia virtual (EC2)](#instancia-virtual-ec2)
+      [Prueba de conectividad SSH](#prueba-de-conectividad-ssh)
+- [Servicios desplegados en la nube](#4-servicios-desplegados-en-la-nube)
+      [DNS en la nube](#dns-en-la-nube)
+      [Almacenamiento (S3)](#almacenamiento-s3)
+      [Base de datos RDS](#base-de-datos-rds)
+      [Servicio web](#servicio-web)
+- [Funcionamiento de la arquitectura](#6-funcionamiento-de-la-arquitectura)
+- [Conclusión](#7-conclusión)
 
 
 # Explicación de la arquitectura propuesta

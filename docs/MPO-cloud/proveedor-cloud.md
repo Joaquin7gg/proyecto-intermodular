@@ -1,4 +1,4 @@
-# Documento de investigación del proveedor cloud
+# Proveedor cloud
 
 Para la implementación de la parte cloud del proyecto se ha seleccionado **Amazon Web Services (AWS)** como proveedor de computación en la nube.
 

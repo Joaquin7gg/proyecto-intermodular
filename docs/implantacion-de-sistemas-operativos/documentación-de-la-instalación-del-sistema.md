@@ -2,15 +2,15 @@
 
 ## Índice
 
-1. [Entorno de instalación](#1-entorno-de-instalación)
-2. [Windows Server 2022](#windows-server-2022)
-3. [Windows 11 Pro](#windows-11-pro)
-4. [Linux Ubuntu Desktop](#linux-ubuntu-desktop)
-5. [Kali Linux](#kali-linux)
+- [Entorno de instalación](#entorno-de-instalación)
+- [Windows Server 2022](#windows-server-2022)
+- [Windows 11 Pro](#windows-11-pro)
+- [Linux Ubuntu Desktop](#linux-ubuntu-desktop)
+- [Kali Linux](#kali-linux)
 
 ---
 
-## 1. Entorno de instalación
+## Entorno de instalación
 
 Al tratarse de un escenario simulado, se utilizó **VirtualBox** para instalar los distintos sistemas operativos.
 
@@ -24,8 +24,8 @@ Windows Server 2022 se implementó en primer lugar como **servidor central del e
 
 <div align="center">
 
-<img src="capturas/so/wserver1.png" width="700">
-<img src="capturas/so/wserver2.png" width="700">
+<img src="capturas/SO/wserver1.png" width="700">
+<img src="capturas/SO/wserver2.png" width="700">
 
 </div>
 
@@ -37,7 +37,7 @@ Windows Server 2022 se implementó en primer lugar como **servidor central del e
 
 <div align="center">
 
-<img src="capturas/so/wserver3.png" width="700">
+<img src="capturas/SO/wserver3.png" width="700">
 
 </div>
 
@@ -53,8 +53,8 @@ Windows 11 Pro fue el sistema operativo elegido para **la mayoría de los equipo
 
 <div align="center">
 
-<img src="capturas/so/w111.png" width="700">
-<img src="capturas/so/w112.png" width="700">
+<img src="capturas/SO/w111.png" width="700">
+<img src="capturas/SO/w112.png" width="700">
 
 </div>
 
@@ -66,8 +66,8 @@ Windows 11 Pro fue el sistema operativo elegido para **la mayoría de los equipo
 
 <div align="center">
 
-<img src="capturas/so/w113.png" width="700">
-<img src="capturas/so/w114.png" width="700">
+<img src="capturas/SO/w113.png" width="700">
+<img src="capturas/SO/w114.png" width="700">
 
 </div>
 
@@ -79,7 +79,7 @@ Windows 11 Pro fue el sistema operativo elegido para **la mayoría de los equipo
 
 <div align="center">
 
-<img src="capturas/so/w115.png" width="700">
+<img src="capturas/SO/w115.png" width="700">
 
 </div>
 
@@ -95,7 +95,7 @@ Linux Ubuntu Desktop también estará presente en el club, aunque de una manera 
 
 <div align="center">
 
-<img src="capturas/so/u1.png" width="700">
+<img src="capturas/SO/u1.png" width="700">
 
 </div>
 
@@ -107,8 +107,8 @@ Linux Ubuntu Desktop también estará presente en el club, aunque de una manera 
 
 <div align="center">
 
-<img src="capturas/so/u2.png" width="700">
-<img src="capturas/so/u3.png" width="700">
+<img src="capturas/SO/u2.png" width="700">
+<img src="capturas/SO/u3.png" width="700">
 
 </div>
 
@@ -120,7 +120,7 @@ Linux Ubuntu Desktop también estará presente en el club, aunque de una manera 
 
 <div align="center">
 
-<img src="capturas/so/u4.png" width="700">
+<img src="capturas/SO/u4.png" width="700">
 
 </div>
 
@@ -136,8 +136,8 @@ Por último, uno de los empleados de IT cuenta con un portátil en el que está 
 
 <div align="center">
 
-<img src="capturas/so/kali/1.png" width="700">
-<img src="capturas/so/kali/2.png" width="700">
+<img src="capturas/SO/kali/1.png" width="700">
+<img src="capturas/SO/kali/2.png" width="700">
 
 </div>
 
@@ -149,7 +149,7 @@ Por último, uno de los empleados de IT cuenta con un portátil en el que está 
 
 <div align="center">
 
-<img src="capturas/so/kali/3.png" width="700">
+<img src="capturas/SO/kali/3.png" width="700">
 
 </div>
 
