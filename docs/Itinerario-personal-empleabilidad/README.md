@@ -9,8 +9,8 @@
 - [Perfil profesional personal](perfil-profesional.md)
 - [Investigación del sector profesional](sector-profesional.md)
 - [Presentación profesional del proyecto](presentación-del-proyecto.md)
+- [Reflexión personal](reflexion-personal.md)
 - <a href="https://portfolio-joaquingg.netlify.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
-- [Reflexión personal](#reflexión-personal.md)
 
 ---
 
