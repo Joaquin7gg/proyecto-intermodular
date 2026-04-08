@@ -1,17 +1,17 @@
-# 1. Documento de análisis de hardware
+# Documento de análisis de hardware
 
 ## Índice
 
-- [Introducción](#11-introducción)
-- [Equipos necesarios en el sistema](#12-equipos-necesarios-en-el-sistema)
-- [Equipos de red y comunicaciones](#13-equipos-de-red-y-comunicaciones)
-- [Sistema de alimentación y continuidad eléctrica](#14-sistema-de-alimentación-y-continuidad-eléctrica)
-- [Dispositivos de almacenamiento](#15-dispositivos-de-almacenamiento)
-- [Periféricos necesarios](#16-periféricos-necesarios)
-- [Cantidad total de equipos y distribución funcional](#17-cantidad-total-de-equipos-y-distribución-funcional)
-- [Conclusión](#18-conclusión)
+- [Introducción](#introducción)
+- [Equipos necesarios en el sistema](#equipos-necesarios-en-el-sistema)
+- [Equipos de red y comunicaciones](#equipos-de-red-y-comunicaciones)
+- [Sistema de alimentación y continuidad eléctrica](#sistema-de-alimentación-y-continuidad-eléctrica)
+- [Dispositivos de almacenamiento](#dispositivos-de-almacenamiento)
+- [Periféricos necesarios](#periféricos-necesarios)
+- [Cantidad total de equipos y distribución funcional](#cantidad-total-de-equipos-y-distribución-funcional)
+- [Conclusión](#conclusión)
 
-## 1.1 Introducción
+## Introducción
 
 La infraestructura hardware propuesta corresponde a un club de tamaño modesto, con unas necesidades similares a las de una pequeña o mediana empresa. El objetivo principal del sistema es proporcionar un entorno de trabajo estable, seguro y fácil de mantener, sin recurrir a soluciones sobredimensionadas ni excesivamente costosas.
 
@@ -19,9 +19,9 @@ Para ello, se plantea una infraestructura equilibrada compuesta por equipos de u
 
 Este análisis de hardware permite identificar qué equipos son necesarios, cuántas unidades se requieren y cuál es su función dentro de la infraestructura general del proyecto.
 
-## 1.2 Equipos necesarios en el sistema
+## Equipos necesarios en el sistema
 
-### 1.2.1 Equipos de usuario
+### Equipos de usuario
 
 Los equipos de usuario son los ordenadores destinados al trabajo diario de la mayoría de empleados del club. Estos puestos están orientados a tareas corporativas habituales, como gestión administrativa, uso de aplicaciones ofimáticas, correo electrónico, navegación web, acceso a recursos compartidos y uso de aplicaciones internas.
 
@@ -35,7 +35,7 @@ Los ordenadores de sobremesa estándar permiten desarrollar el trabajo diario de
 
 La función principal de estos equipos es facilitar el acceso de los empleados a la red corporativa, a los servicios centralizados y a las herramientas de trabajo del sistema.
 
-### 1.2.2 Equipos de administración y gestión
+### Equipos de administración y gestión
 
 Dentro del sistema también existen puestos con funciones de dirección, coordinación o gestión interna, que aunque no requieren una potencia extrema, sí necesitan equipos fiables y preparados para un uso profesional continuado.
 
@@ -43,7 +43,7 @@ En este grupo se incluyen principalmente los equipos de sobremesa estándar ya m
 
 Además, las salas de reuniones cuentan con recursos de apoyo, como portátiles y televisiones de gran formato, que facilitan la coordinación entre departamentos, la presentación de informes y la realización de reuniones corporativas.
 
-### 1.2.3 Equipos de mayor rendimiento para tareas específicas
+### Equipos de mayor rendimiento para tareas específicas
 
 No todos los departamentos tienen las mismas necesidades. Existen áreas que requieren un nivel de potencia superior debido al tipo de trabajo que realizan.
 
@@ -69,7 +69,7 @@ Estos equipos están destinados a auditorías, virtualización, diagnóstico de 
 
 La existencia de estos equipos de alto rendimiento permite adaptar la infraestructura a las necesidades reales de cada área, evitando que todos los puestos tengan el mismo coste y prestaciones cuando no es necesario.
 
-## 1.3 Equipos de red y comunicaciones
+## Equipos de red y comunicaciones
 
 La infraestructura necesita además varios dispositivos de red para garantizar la conectividad entre todos los equipos, el acceso a Internet y la comunicación entre departamentos.
 
@@ -109,7 +109,7 @@ Permiten ofrecer conectividad inalámbrica en salas de reuniones y zonas donde s
 
 El cableado de red es el medio físico que conecta la mayoría de dispositivos del sistema. Garantiza una conectividad estable, rápida y segura entre ordenadores, impresoras, switches, router y servidor. Además, se ha previsto un pequeño margen adicional para futuras ampliaciones o sustituciones.
 
-## 1.4 Sistema de alimentación y continuidad eléctrica
+## Sistema de alimentación y continuidad eléctrica
 
 Para proteger los equipos críticos del sistema se ha previsto:
 
@@ -119,7 +119,7 @@ Este dispositivo permite mantener temporalmente en funcionamiento el servidor y 
 
 Se trata de un elemento especialmente importante en el CPD, ya que contribuye a la continuidad del servicio y a la protección del hardware más sensible.
 
-## 1.5 Dispositivos de almacenamiento
+## Dispositivos de almacenamiento
 
 El sistema de almacenamiento es esencial para garantizar la conservación, disponibilidad y protección de la información.
 
@@ -137,7 +137,7 @@ Su función es guardar archivos compartidos, documentación interna, copias de s
 
 Cada empleado dispone de una unidad de almacenamiento USB corporativa. Su función es permitir el transporte o almacenamiento puntual de información de trabajo sin necesidad de utilizar dispositivos personales externos. Esta medida ayuda a reducir riesgos de seguridad, como la introducción de malware o el uso de soportes no autorizados.
 
-## 1.6 Periféricos necesarios
+## Periféricos necesarios
 
 Además de los equipos principales, el sistema necesita distintos periféricos que complementan el trabajo diario de los usuarios.
 
@@ -164,7 +164,7 @@ Se utilizan como soporte visual en reuniones, presentaciones corporativas, forma
 
 Aunque no aparezcan de forma independiente en el inventario principal, también forman parte del hardware necesario de cada puesto de trabajo. Su función es permitir la interacción directa con los equipos informáticos de forma cómoda y eficiente.
 
-## 1.7 Cantidad total de equipos y distribución funcional
+## Cantidad total de equipos y distribución funcional
 
 A nivel global, la infraestructura hardware queda compuesta por los siguientes elementos principales:
 
@@ -190,7 +190,7 @@ A nivel global, la infraestructura hardware queda compuesta por los siguientes e
 
 Esta distribución responde a una infraestructura ajustada al tamaño de la organización, donde cada equipo tiene una función concreta y justificada. No se plantea un hardware excesivo, sino una solución proporcionada a las necesidades reales del entorno de trabajo.
 
-## 1.8 Conclusión
+## Conclusión
 
 El análisis de hardware realizado demuestra que el sistema necesita una combinación equilibrada de equipos de usuario, equipos técnicos especializados, dispositivos de red, almacenamiento y periféricos. La propuesta cubre tanto las necesidades diarias de los empleados como los requisitos técnicos de áreas más exigentes, como Prensa y Marketing o Soporte IT.
 

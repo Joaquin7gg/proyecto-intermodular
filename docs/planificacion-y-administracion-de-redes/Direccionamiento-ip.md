@@ -103,4 +103,4 @@ Este esquema híbrido combina la **estabilidad** necesaria en los servicios del 
 - Se ha reservado la **VLAN 30** para los servidores ubicados en el **CPD**.
 - La **VLAN 99** se destina a tareas de **gestión y administración**.
 - El direccionamiento utilizado facilita la identificación rápida de cada departamento, ya que el tercer octeto coincide con el número de VLAN.
-- No se han cableado todos los ordenadores ni todas las impresoras para no congestionar todo el esquema de cables, lo que podría dificultar la visualización clara de la infraestructura completa
+- No se han cableado todos los ordenadores ni todas las impresoras para no congestionar todo el esquema de cables, lo que podría dificultar la visualización clara de la infraestructura completa.

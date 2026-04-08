@@ -1,20 +1,20 @@
-# 5. Reflexión
+# Reflexión
 
 ## Índice
 
-- [Introducción](#51-introducción)
+- [Introducción](#introducción)
 - [Comparativa entre las configuraciones propuestas](#52-comparativa-entre-las-configuraciones-propuestas)
 - [Posibles mejoras de hardware](#53-posibles-mejoras-de-hardware)
 - [Evolución del sistema si la empresa crece](#54-evolución-del-sistema-si-la-empresa-crece)
 - [Valoración final](#55-valoración-final)
 
-## 5.1 Introducción
+## Introducción
 
 La infraestructura hardware propuesta se ha diseñado para cubrir las necesidades actuales del club, manteniendo un equilibrio entre rendimiento, coste, estabilidad y facilidad de mantenimiento. Sin embargo, como ocurre en cualquier sistema informático, esta infraestructura no debe considerarse cerrada o definitiva, sino preparada para evolucionar en función del crecimiento de la organización y de los cambios en sus necesidades.
 
 Por este motivo, resulta importante realizar una pequeña reflexión sobre las posibles mejoras del hardware, las diferencias entre las configuraciones planteadas y la forma en la que el sistema podría ampliarse en el futuro.
 
-## 5.2 Comparativa entre las configuraciones propuestas
+## Comparativa entre las configuraciones propuestas
 
 Uno de los aspectos más claros de la infraestructura es que no todos los puestos de trabajo requieren el mismo nivel de potencia. Por ello, se han planteado distintas configuraciones adaptadas al perfil de cada usuario.
 
@@ -26,11 +26,11 @@ La **HP Z4 G5**, destinada a Soporte IT, supone un salto importante en robustez 
 
 Por último, el **equipo de alto rendimiento diseñado a medida** representa la opción más potente de toda la infraestructura. Su gran capacidad de memoria, la tarjeta gráfica dedicada de gama alta y el almacenamiento rápido lo convierten en una solución claramente superior para tareas creativas exigentes. Frente al equipo estándar mejorado, ofrece una mayor capacidad gráfica y un margen mucho más amplio para edición multimedia, diseño avanzado o creación de contenido.
 
-## 5.3 Posibles mejoras de hardware
+## Posibles mejoras de hardware
 
 Aunque la infraestructura propuesta es adecuada para las necesidades actuales del proyecto, existen varias mejoras que podrían aplicarse en el futuro.
 
-Una de las primeras mejoras posibles sería la **ampliación de memoria RAM** en algunos puestos. Por ejemplo, los equipos estándar podrían evolucionar de 16 GB a 32 GB si aumentara el uso de aplicaciones más pesadas o si la empresa adoptara herramientas de trabajo más exigentes. Esta mejora permitiría alargar la vida útil de los equipos sin necesidad de sustituirlos completamente.
+Una de las primeras mejoras posibles sería la **ampliación de memoria RAM** en algunos puestos. Por ejemplo, los equipos estándar podrían evolucionar de 16 GB a 32 GB si aumentara el uso de aplicaciones más pesadas o si la empresa adoptara herramientas de trabajo más exigentes. Esta mejora permitiría alargar la vida útil de los equipos sin necesidad de sustituirlos completamente. Sin embargo, la actual crisis en la que los precios de la RAM han aumentado de manera considerable deja este escenario un poco en el aire.
 
 Otra mejora clara sería el **aumento de la capacidad de almacenamiento SSD** en determinados puestos, especialmente en los departamentos de Prensa y Marketing y en Soporte IT. A medida que crezcan los archivos de trabajo, el material gráfico, las imágenes de sistema o las herramientas técnicas, disponer de más capacidad local puede resultar necesario.
 
@@ -38,7 +38,7 @@ En el caso del servidor, una mejora importante sería sustituir en el futuro los
 
 Otra posible mejora estaría relacionada con la **tarjeta gráfica**. Actualmente, solo el equipo a medida dispone de una GPU potente, algo lógico por su función específica. Sin embargo, si el departamento de Prensa y Marketing aumentara su carga de trabajo multimedia, podría ser conveniente incorporar gráficas dedicadas también en alguno de los equipos superiores.
 
-## 5.4 Evolución del sistema si la empresa crece
+## Evolución del sistema si la empresa crece
 
 Si el club creciera en número de empleados, departamentos o volumen de trabajo, la infraestructura hardware debería evolucionar en consecuencia.
 
@@ -52,7 +52,7 @@ A nivel de almacenamiento, el crecimiento de la empresa implicaría casi con seg
 
 Del mismo modo, si la infraestructura de red se volviera más compleja, también podría ser necesario reforzar los equipos de administración técnica, las herramientas de monitorización y la capacidad del servidor central.
 
-## 5.5 Valoración final
+## Valoración final
 
 En conjunto, la infraestructura propuesta resulta adecuada para el tamaño actual del proyecto y responde de forma coherente a las necesidades de cada departamento. La existencia de distintos niveles de hardware permite optimizar recursos, evitando asignar equipos excesivamente potentes a puestos que no los necesitan y reservando las configuraciones más avanzadas para los perfiles que realmente las aprovechan.
 

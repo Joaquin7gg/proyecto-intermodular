@@ -98,6 +98,7 @@ Parte orientada al perfil profesional, donde se trabaja la presentación del pro
 - **Amazon VPC**
 - **GitHub**
 - **Markdown**
+- **Draw.io**
 
 ---
 

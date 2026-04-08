@@ -17,7 +17,7 @@
 
 # Explicación de la arquitectura propuesta
 
-## 1. Visión general de la arquitectura
+## Visión general de la arquitectura
 
 La arquitectura propuesta para este proyecto es de tipo **híbrida**, combinando un entorno local (on-premise) con servicios desplegados en la nube mediante **Amazon Web Services (AWS)**.
 
@@ -28,7 +28,7 @@ De esta forma, se consigue un equilibrio entre control local y escalabilidad clo
 Para la realización de este proyecto, se ha utilizado AWS Academy, un entorno de pruebas donde se han configurado estos servicios.
 ---
 
-## 2. Infraestructura local (on-premise)
+## Infraestructura local (on-premise)
 
 El entorno local constituye el núcleo del sistema y alberga los servicios críticos de la organización. Entre ellos se incluyen:
 
@@ -43,7 +43,7 @@ Estos servicios se ejecutan dentro del CPD del club, utilizando una red interna 
 
 ---
 
-## 3. Infraestructura cloud (AWS)
+## Infraestructura cloud (AWS)
 
 Como complemento al entorno local, se ha desplegado una infraestructura en la nube utilizando AWS, basada en los siguientes elementos:
 
@@ -144,7 +144,7 @@ Además, se ha utilizado un direccionamiento IP independiente en la nube, evitan
 
 ---
 
-## 4. Servicios desplegados en la nube
+## Servicios desplegados en la nube
 
 ### DNS en la nube
 
@@ -264,8 +264,6 @@ Y aprovechando que AWS cuenta con una consola propia, llamada **CloudShell**, ta
 </div>
 
 ---
-
-### Base de datos RDS
 
 ### Base de datos RDS
 
@@ -482,7 +480,7 @@ De este modo, se evita exponer directamente la infraestructura local a Internet,
 
 ---
 
-## 6. Funcionamiento de la arquitectura
+## Funcionamiento de la arquitectura
 
 El funcionamiento general del sistema es el siguiente:
 
@@ -499,7 +497,7 @@ Servidor web (EC2 en AWS)    || CPD local (servicios internos)
 
 ---
 
-## 7. Conclusión
+## Conclusión
 
 La arquitectura propuesta combina las ventajas del entorno local con las capacidades de la nube.
 

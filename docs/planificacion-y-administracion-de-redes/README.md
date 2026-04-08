@@ -9,6 +9,7 @@
 - [Configuraciones Relevantes](configuraciones-relevantes.md)
 - [Direccionamiento IP](Direccionamiento-ip.md)
 - [Esquema físico y lógico](esquema-fisico-y-logico.md)
+- [Conclusiones](conclusiones.md)
 
 Este directorio recoge los documentos correspondientes al módulo de **Planificación y Administración de Redes**, dentro del proyecto intermodular de **1º ASIR**.
 
@@ -31,4 +32,4 @@ La solución incluye una red distribuida en **dos plantas** y un **CPD central**
 - SSH
 - Wireless LAN Controller (WLC)
 - IPv4
-- GitHub
+- Draw.io

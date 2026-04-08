@@ -1,6 +1,6 @@
 # Índice
 
-- [1. Implementación de inter-VLAN routing mediante switch multicapa](#1--implementación-de-inter-vlan-routing-mediante-switch-multicapa)
+- [Implementación de inter-VLAN routing mediante switch multicapa](#implementación-de-inter-vlan-routing-mediante-switch-multicapa)
   - [Creación de VLANs y configuración de interfaces SVI](#creación-de-vlans-y-configuración-de-interfaces-svi)
   - [Configuración de enlaces trunk en el switch multicapa](#configuración-de-enlaces-trunk-en-el-switch-multicapa)
   - [Configuración de los demás enlaces trunk](#configuración-de-los-demás-enlaces-trunk)
@@ -14,11 +14,11 @@
   - [Prueba de conectividad dentro de la VLAN 40](#prueba-de-conectividad-dentro-de-la-vlan-40)
   - [Prueba de conectividad hacia otro equipo de la red](#prueba-de-conectividad-hacia-otro-equipo-de-la-red)
 
-- [2. DHCP](#2--dhcp)
+- [DHCP](#dhcp)
   - [Configuración del servidor DHCP en el switch multicapa](#configuración-del-servidor-dhcp-en-el-switch-multicapa)
   - [Obtención de dirección IP mediante DHCP en un equipo de la red](#obtención-de-dirección-ip-mediante-dhcp-en-un-equipo-de-la-red)
 
-- [3. Configuración Wireless](#3--configuración-wireless)
+- [Configuración Wireless](#configuración-wireless)
   - [Configuración inicial de gestión en el WLC](#configuración-inicial-de-gestión-en-el-wlc)
   - [Interfaz del WLC](#interfaz-del-wlc)
   - [Creación de la cuenta de administrador](#creación-de-la-cuenta-de-administrador)
@@ -32,13 +32,13 @@
   - [Validación de IP dinámica en Portátil de Empleados](#validación-de-ip-dinámica-en-portátil-de-empleados)
   - [Validación de IP dinámica en Portátil de Invitados](#validación-de-ip-dinámica-en-portátil-de-invitados)
 
-- [4. Simulación de internet en un Router 2911](#4--simulación-de-internet-en-un-router-2911)
+- [Simulación de internet en un Router 2911](#4--simulación-de-internet-en-un-router-2911)
   - [Configuración de la interfaz del switch multicapa 3 conectada al router](#configuración-de-la-interfaz-del-switch-multicapa-3-conectada-al-router)
   - [Configuración de la interfaz del router conectada al switch multicapa](#configuración-de-la-interfaz-del-router-conectada-al-switch-multicapa)
   - [Creación de una loopback para simular internet](#creación-de-una-loopback-para-simular-internet)
   - [Pruebas de conexión a internet simulado](#pruebas-de-conexión-a-internet-simulado)
 
-- [5. Configuración de ACLs para control de acceso entre VLANs](#5--configuración-de-acls-para-control-de-acceso-entre-vlans)
+- [Configuración de ACLs para control de acceso entre VLANs](#5--configuración-de-acls-para-control-de-acceso-entre-vlans)
   - [Creación de la primera ACL: VLAN 70 (WLAN_empleados) no puede comunicarse con VLAN 10 (Dirección)](#creación-de-la-primera-acl-vlan-70-wlan_empleados-no-puede-comunicarse-con-vlan-10-dirección)
   - [Creación de la segunda ACL: Marketing (VLAN 20) no puede acceder a Dirección (VLAN 10)](#creación-de-la-segunda-acl-marketing-vlan-20-no-puede-acceder-a-dirección-vlan-10)
   - [Solo VLAN 99 puede administrar los dispositivos](#solo-vlan-99-puede-administrar-los-dispositivos)
@@ -48,21 +48,14 @@
     - [SSH](#ssh)
     - [BUG ACL](#bug-acl)
 
-- [6. Configuración de Impresoras](#6--configuración-de-impresoras)
-- [7. Conclusiones](#conclusiones)
+- [Configuración de Impresoras](#6--configuración-de-impresoras)
 
-# 1- Implementación de inter-VLAN routing mediante switch multicapa
+# Implementación de inter-VLAN routing mediante switch multicapa
 
 
-Para la implementación de la red se ha utilizado un **switch multicapa (Layer 3)** como dispositivo encargado del **inter-VLAN routing**. Esta decisión se debe a que los switches de capa 3 permiten realizar el enrutamiento entre redes VLAN directamente dentro del propio switch.
+Para implementar el **enrutamiento inter-VLAN** se ha optado por un **switch multicapa (capa 3)** en lugar de **router-on-a-stick**, ya que se adapta mejor a la estructura y necesidades de esta red. En este proyecto existen numerosas VLANs de usuarios, servidores, gestión y red inalámbrica, por lo que centralizar el enrutamiento en el propio switch de núcleo permite una topología más limpia, eficiente y escalable. A diferencia del router-on-a-stick, donde todo el tráfico entre VLANs debe pasar por una única interfaz física del router mediante subinterfaces, el switch multicapa realiza el encaminamiento internamente a través de las **interfaces SVI**, reduciendo cuellos de botella y mejorando el rendimiento.
 
-El uso de un switch multicapa presenta varias ventajas frente al uso de un router tradicional para el enrutamiento entre VLANs:
-
-- **Mayor rendimiento**, ya que el enrutamiento se realiza mediante hardware especializado dentro del propio switch.
-- **Menor latencia**, al evitar un salto adicional hacia un router externo.
-- **Arquitectura más sencilla**, centralizando el enrutamiento de todas     las VLAN en el núcleo de la red.
-
-De esta manera, los switches de acceso se encargan únicamente de conectar los dispositivos finales, mientras que el switch multicapa actúa como **núcleo de la red**, gestionando el enrutamiento entre los distintos departamentos.
+Además, esta elección simplifica la administración de la red, ya que en el mismo dispositivo se integran funciones clave como el **gateway de cada VLAN**, el **servicio DHCP**, la aplicación de **ACLs**   y la conexión hacia el router que simula la salida a Internet. Por tanto, el uso de un switch capa 3 no solo ofrece mayor velocidad y menor latencia, sino también una solución más adecuada para una infraestructura segmentada como la desarrollada en este proyecto.
 
 ---
 
@@ -596,7 +589,7 @@ con los siguientes parámetros:
 
 </div>
 
-# 2- DHCP
+# DHCP
 
 ## Configuración del servidor DHCP en el switch multicapa
 
@@ -669,7 +662,7 @@ La asignación automática de estos valores confirma que el servidor DHCP config
 </div>
 
 
-# 3- Configuración Wireless
+# Configuración Wireless
 
 Para la configuración de un punto de acceso que contuviese dos SSID, tanto de empresa como de invitados, se optó por configurar un **WLC-2504 Wireless Lan Controller**. De esta configuración se aprovecharía un dispositivo básico LAP-PT, que solo tendría que servir la señal a los dispositivos de salida.
 
@@ -860,7 +853,7 @@ Se realiza la misma comprobación en el portátil de refuerzo de la red de invit
 
 </div>
 
-# 4- Simulación de internet en un Router 2911
+# Simulación de internet en un Router 2911
 
 La incorporación de un Router 2911 permite recrear una salida real a la WAN (Internet). Su propósito principal es actuar como el límite de confianza de la infraestructura, sirviendo como destino para las rutas por 
 defecto del Switch Multicapa. Es una buena manera de validar las políticas de seguridad (ACLs) que se configurarán a posteriori.
@@ -967,7 +960,7 @@ Las pruebas se realizaron desde el switch multicapa, el router y desde un PC esc
 </div>
 
 
-# 5- Configuración de ACLs para control de acceso entre VLANs
+# Configuración de ACLs para control de acceso entre VLANs
 
 Para aplicar diferentes políticas de seguridad entre las VLANs de la red es necesario configurar **Listas de Control de Acceso (ACL)**.
 
@@ -1251,7 +1244,7 @@ end
 
 </div>
 
-# 6- Configuración de Impresoras
+# Configuración de Impresoras
 
 Se decidió incorporar a la infraestructura cuatro impresoras, dos en cada planta. Para ello, se conectó cada impresora por cable al switch de cada planta. Además, se decidió que las impresoras pertenecieran a la VLAN 30, la de los servidores, ya que las impresoras son recursos compartidos, al igual que los servidores. 
 
@@ -1294,7 +1287,7 @@ Para comprobar el correcto funcionamiento, se realizó una prueba. Un empleado a
 
 ---
 
-# 7- Conclusiones
+# Conclusiones
 
 A lo largo de este proyecto se ha montado una infraestructura de red, partiendo desde la segmentación por VLAN hasta la configuración de servicios clave como DHCP, red inalámbrica, ACL y salida a internet simulada. En conjunto, el resultado ha sido positivo, ya que la red ha quedado organizada, funcional y con una base de seguridad coherente para cada tipo de usuario y dispositivo.
 

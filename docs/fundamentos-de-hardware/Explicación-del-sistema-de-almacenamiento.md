@@ -1,18 +1,18 @@
-# 4. Explicación del sistema de almacenamiento
+# Explicación del sistema de almacenamiento
 
 ## Índice
 
-- [Introducción](#41-introducción)
-- [Tipos de almacenamiento utilizados](#42-tipos-de-almacenamiento-utilizados)
-- [Almacenamiento en los equipos de usuario](#43-almacenamiento-en-los-equipos-de-usuario)
-- [Almacenamiento en los equipos de mayor rendimiento](#44-almacenamiento-en-los-equipos-de-mayor-rendimiento)
-- [Sistema de almacenamiento del servidor](#45-sistema-de-almacenamiento-del-servidor)
-- [Capacidad de almacenamiento necesaria](#46-capacidad-de-almacenamiento-necesaria)
-- [Ventajas de cada tipo de almacenamiento](#47-ventajas-de-cada-tipo-de-almacenamiento)
-- [Uso previsto del almacenamiento](#48-uso-previsto-del-almacenamiento)
-- [Conclusión](#49-conclusión)
+- [Introducción](#introducción)
+- [Tipos de almacenamiento utilizados](#tipos-de-almacenamiento-utilizados)
+- [Almacenamiento en los equipos de usuario](#almacenamiento-en-los-equipos-de-usuario)
+- [Almacenamiento en los equipos de mayor rendimiento](#almacenamiento-en-los-equipos-de-mayor-rendimiento)
+- [Sistema de almacenamiento del servidor](#sistema-de-almacenamiento-del-servidor)
+- [Capacidad de almacenamiento necesaria](#capacidad-de-almacenamiento-necesaria)
+- [Ventajas de cada tipo de almacenamiento](#ventajas-de-cada-tipo-de-almacenamiento)
+- [Uso previsto del almacenamiento](#uso-previsto-del-almacenamiento)
+- [Conclusión](#conclusión)
 
-## 4.1 Introducción
+## Introducción
 
 El sistema de almacenamiento es uno de los elementos más importantes dentro de una infraestructura informática, ya que se encarga de guardar de forma permanente el sistema operativo, las aplicaciones y los datos de trabajo de la organización. En este proyecto, el almacenamiento se ha diseñado teniendo en cuenta las necesidades reales de un club con estructura similar a la de una pyme, buscando un equilibrio entre capacidad, velocidad, seguridad y coste.
 
@@ -20,7 +20,7 @@ La propuesta combina distintos tipos de almacenamiento según el uso previsto de
 
 De este modo, el sistema de almacenamiento se adapta a las distintas funciones de la infraestructura, diferenciando entre el almacenamiento local de los usuarios y el almacenamiento centralizado del servidor.
 
-## 4.2 Tipos de almacenamiento utilizados
+## Tipos de almacenamiento utilizados
 
 En la infraestructura propuesta se utilizan principalmente dos tipos de almacenamiento: **SSD** y **HDD**.
 
@@ -46,7 +46,7 @@ Los **HDD** o discos duros mecánicos se utilizan en el servidor central. A dife
 
 En el contexto del proyecto, el servidor necesita guardar una gran cantidad de datos compartidos, documentación interna, recursos del sistema, copias de trabajo y servicios centralizados. Por ello, el uso de discos HDD de gran capacidad resulta adecuado, ya que permite almacenar muchos datos sin disparar el coste total de la infraestructura.
 
-## 4.3 Almacenamiento en los equipos de usuario
+## Almacenamiento en los equipos de usuario
 
 Los equipos de usuario estándar y los equipos portátiles utilizan unidades **SSD** incorporadas de fábrica, ya que estos puestos necesitan rapidez en el trabajo diario más que una gran capacidad de almacenamiento local.
 
@@ -62,7 +62,7 @@ La elección de **512 GB SSD** como capacidad de referencia en la mayoría de pu
 
 Por tanto, en los puestos de usuario el almacenamiento se plantea con una lógica de **rapidez y productividad**, mientras que la conservación centralizada de los datos más importantes recae en el servidor.
 
-## 4.4 Almacenamiento en los equipos de mayor rendimiento
+## Almacenamiento en los equipos de mayor rendimiento
 
 Los equipos de configuración superior, las workstations de Soporte IT y el equipo de alto rendimiento diseñado a medida también utilizan almacenamiento **SSD**, aunque en estos casos el papel de la velocidad es todavía más importante.
 
@@ -78,7 +78,7 @@ En todos estos casos, se aprovecha el **almacenamiento ya integrado en cada equi
 
 Esto demuestra que la capacidad de almacenamiento se ha adaptado al perfil de cada puesto, manteniendo siempre la ventaja de rendimiento que aporta la tecnología SSD.
 
-## 4.5 Sistema de almacenamiento del servidor
+## Sistema de almacenamiento del servidor
 
 El almacenamiento más importante del sistema se encuentra en el **servidor central**, ya que es el encargado de alojar buena parte de los datos corporativos y de los servicios compartidos de la organización.
 
@@ -104,7 +104,7 @@ En este proyecto, este almacenamiento del servidor se destina a:
 - Servicios internos como intranet, FTP o almacenamiento común
 - Información operativa del club
 
-## 4.6 Capacidad de almacenamiento necesaria
+## Capacidad de almacenamiento necesaria
 
 La capacidad de almacenamiento necesaria no es la misma en todos los equipos.
 
@@ -120,7 +120,7 @@ En el servidor, la capacidad se amplía mucho más, ya que centraliza el almacen
 
 Por tanto, la infraestructura no plantea una única solución de almacenamiento para todos los casos, sino una distribución escalonada según la función de cada equipo.
 
-## 4.7 Ventajas de cada tipo de almacenamiento
+## Ventajas de cada tipo de almacenamiento
 
 ### Ventajas del SSD
 
@@ -147,7 +147,7 @@ Aunque su velocidad es inferior a la de un SSD, en este proyecto su función pri
 
 En este caso, la empresa dispondrá de **3 discos duros Seagate IronWolf Pro NAS HDD**, destinados al **almacenamiento en RAID 5 del servidor principal**. Esta elección resulta adecuada porque se trata de discos orientados a funcionamiento continuado y a entornos donde la fiabilidad del almacenamiento es especialmente importante.
 
-## 4.8 Uso previsto del almacenamiento
+## Uso previsto del almacenamiento
 
 El almacenamiento del sistema se ha planteado según el uso previsto de cada parte de la infraestructura.
 
@@ -170,7 +170,7 @@ Así, el diseño del almacenamiento diferencia claramente entre dos niveles:
 - **Almacenamiento local**, usando los SSD incorporados en los equipos de usuario
 - **Almacenamiento centralizado**, usando discos HDD en RAID 5 en el servidor principal
 
-## 4.9 Conclusión
+## Conclusión
 
 El sistema de almacenamiento propuesto combina distintas tecnologías según las necesidades reales del proyecto. Los **SSD** se utilizan en los equipos de sobremesa, workstations y portátiles, aprovechando las unidades incorporadas en cada dispositivo para garantizar rapidez, fluidez y productividad en el trabajo diario.
 

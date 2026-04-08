@@ -3,17 +3,17 @@
 ## Índice
 
 - [Introducción](#1-introducción)
-- [Implantación en entorno simulado](#2-implantación-en-entorno-simulado)
-- [Implantación en un entorno real](#3-implantación-en-un-entorno-real)
-- [Instalación del servidor](#4-instalación-del-servidor)
-- [Instalación de los equipos cliente](#5-instalación-de-los-equipos-cliente)
-- [Sistemas operativos implantados](#6-sistemas-operativos-implantados)
-- [Integración en la infraestructura](#7-integración-en-la-infraestructura)
-- [Validación del sistema](#8-validación-del-sistema)
+- [Implantación en entorno simulado](#implantación-en-entorno-simulado)
+- [Implantación en un entorno real](#implantación-en-un-entorno-real)
+- [Instalación del servidor](#instalación-del-servidor)
+- [Instalación de los equipos cliente](#instalación-de-los-equipos-cliente)
+- [Sistemas operativos implantados](#sistemas-operativos-implantados)
+- [Integración en la infraestructura](#integración-en-la-infraestructura)
+- [Validación del sistema](#validación-del-sistema)
 
 ---
 
-## 1. Introducción
+## Introducción
 
 El objetivo de este plan de implantación es definir el proceso mediante el cual se desplegarán los sistemas operativos y servicios dentro de la infraestructura del club.
 
@@ -23,7 +23,7 @@ No obstante, el procedimiento descrito a continuación también refleja cómo se
 
 ---
 
-## 2. Implantación en entorno simulado
+## Implantación en entorno simulado
 
 En este proyecto se ha utilizado **VirtualBox** para crear un entorno virtual en el que se han desplegado los distintos sistemas operativos.
 
@@ -40,7 +40,7 @@ La instalación de los sistemas operativos y su configuración se documenta deta
 
 ---
 
-## 3. Implantación en un entorno real
+## Implantación en un entorno real
 
 En un entorno corporativo real, la implantación de sistemas operativos en una infraestructura de aproximadamente **22 equipos** se realizaría siguiendo un procedimiento estructurado y planificado.
 
@@ -52,7 +52,7 @@ Dependiendo del caso, los equipos pueden llegar con el sistema operativo preinst
 
 ---
 
-## 4. Instalación del servidor
+## Instalación del servidor
 
 El primer sistema que debe implantarse es el **servidor central**, ya que será el encargado de gestionar el dominio, los usuarios y los recursos compartidos de la organización.
 
@@ -86,7 +86,7 @@ El acceso remoto se controlará mediante permisos asignados únicamente al perso
 
 ---
 
-## 5. Instalación de los equipos cliente
+## Instalación de los equipos cliente
 
 Una vez configurado el servidor, se procede a la instalación de los sistemas operativos en los equipos cliente de la organización.
 
@@ -120,7 +120,7 @@ Estas herramientas permiten instalar el sistema operativo en múltiples equipos 
 
 ---
 
-## 6. Sistemas operativos implantados
+## Sistemas operativos implantados
 
 En el entorno descrito se han seleccionado los siguientes sistemas operativos:
 
@@ -142,7 +142,7 @@ Utilizado por el departamento de IT para tareas relacionadas con seguridad infor
 
 ---
 
-## 7. Integración en la infraestructura
+## Integración en la infraestructura
 
 Una vez instalados los sistemas operativos, los equipos cliente deben integrarse dentro de la infraestructura corporativa.
 
@@ -157,7 +157,7 @@ Una vez completados estos pasos, los equipos estarán preparados para utilizar l
 
 ---
 
-## 8. Validación del sistema
+## Validación del sistema
 
 Tras completar la implantación de los sistemas operativos, el departamento de IT debe verificar que todos los equipos funcionan correctamente dentro de la infraestructura.
 

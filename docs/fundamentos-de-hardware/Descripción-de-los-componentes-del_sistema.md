@@ -1,24 +1,24 @@
-# 2. Descripción de los componentes del sistema
+# Descripción de los componentes del sistema
 
 ## Índice
 
-- [Introducción](#21-introducción)
-- [CPU o procesador](#22-cpu-o-procesador)
-- [Placa base](#23-placa-base)
-- [Memoria RAM](#24-memoria-ram)
-- [Discos de almacenamiento](#25-discos-de-almacenamiento)
-- [Fuente de alimentación](#26-fuente-de-alimentación)
-- [Tarjetas de expansión](#27-tarjetas-de-expansión)
-- [Relación de los componentes con el sistema](#28-relación-de-los-componentes-con-el-sistema)
-- [Conclusión](#29-conclusión)
+- [Introducción](#introducción)
+- [CPU o procesador](#cpu-o-procesador)
+- [Placa base](#placa-base)
+- [Memoria RAM](#memoria-ram)
+- [Discos de almacenamiento](#discos-de-almacenamiento)
+- [Fuente de alimentación](#fuente-de-alimentación)
+- [Tarjetas de expansión](#tarjetas-de-expansión)
+- [Relación de los componentes con el sistema](#relación-de-los-componentes-con-el-sistema)
+- [Conclusión](#conclusión)
 
-## 2.1 Introducción
+## Introducción
 
 Además del análisis de las necesidades de hardware de la empresa, es importante describir los componentes internos que forman parte de los equipos informáticos del sistema. Estos componentes son los que permiten que un ordenador procese información, ejecute programas, almacene datos y se comunique con el resto de la infraestructura de red.
 
 En este proyecto, los equipos informáticos se destinan a distintos usos, desde tareas administrativas y corporativas hasta funciones más exigentes, como diseño gráfico, virtualización o soporte técnico. Por ello, resulta necesario comprender qué función cumple cada componente dentro del sistema y por qué su elección influye directamente en el rendimiento, la estabilidad y la vida útil del equipo.
 
-## 2.2 CPU o procesador
+## CPU o procesador
 
 La **CPU** o **Unidad Central de Procesamiento** es el componente encargado de ejecutar las instrucciones y procesar la información del ordenador. Se considera el “cerebro” del sistema, ya que coordina la ejecución de programas, realiza cálculos y gestiona buena parte del funcionamiento general del equipo.
 
@@ -39,7 +39,7 @@ Por tanto, la elección del procesador influye directamente en la rapidez del si
 
 </div>
 
-## 2.3 Placa base
+## Placa base
 
 La **placa base** es la estructura principal del ordenador sobre la que se conectan e integran el resto de componentes. En ella se instalan el procesador, la memoria RAM, las unidades de almacenamiento y, si es necesario, las tarjetas de expansión.
 
@@ -60,7 +60,7 @@ Dentro del sistema del proyecto, la placa base es esencial porque actúa como ba
 
 </div>
 
-## 2.4 Memoria RAM
+## Memoria RAM
 
 La **memoria RAM** es la memoria principal de trabajo del ordenador. Su función consiste en almacenar de forma temporal los programas, datos e instrucciones que están siendo utilizados en ese momento por el sistema.
 
@@ -82,7 +82,7 @@ En el entorno del proyecto, la RAM resulta fundamental para mantener un rendimie
 </div>
 
 
-## 2.5 Discos de almacenamiento
+## Discos de almacenamiento
 
 Los **discos de almacenamiento** son los componentes encargados de guardar de forma permanente el sistema operativo, las aplicaciones instaladas y los archivos del usuario. A diferencia de la memoria RAM, la información almacenada en estos dispositivos no se pierde al apagar el equipo.
 
@@ -103,7 +103,7 @@ Dentro del proyecto, los discos de almacenamiento permiten guardar documentos co
 
 </div>
 
-## 2.6 Fuente de alimentación
+## Fuente de alimentación
 
 La **fuente de alimentación** es el componente encargado de suministrar energía eléctrica a todos los elementos internos del ordenador. Convierte la corriente eléctrica procedente de la red en los voltajes necesarios para que funcionen correctamente la placa base, el procesador, la memoria, los discos y el resto de dispositivos.
 
@@ -124,7 +124,7 @@ En los puestos estándar de oficina la demanda energética suele ser moderada, m
 
 </div>
 
-## 2.7 Tarjetas de expansión
+## Tarjetas de expansión
 
 Las **tarjetas de expansión** son componentes adicionales que pueden instalarse en la placa base para ampliar o mejorar las capacidades del equipo. No siempre son imprescindibles, ya que muchas funciones básicas pueden venir integradas, pero resultan útiles cuando se necesitan prestaciones adicionales.
 
@@ -148,7 +148,7 @@ Dentro del sistema del proyecto, las tarjetas de expansión tendrían más impor
 
 </div>
 
-## 2.8 Relación de los componentes con el sistema
+## Relación de los componentes con el sistema
 
 Todos los componentes descritos trabajan conjuntamente para hacer posible el funcionamiento de los equipos informáticos de la empresa:
 
@@ -161,7 +161,7 @@ Todos los componentes descritos trabajan conjuntamente para hacer posible el fun
 
 Gracias a la combinación de estos componentes, los ordenadores del sistema pueden responder tanto a tareas administrativas habituales como a funciones más técnicas o avanzadas.
 
-## 2.9 Conclusión
+## Conclusión
 
 La descripción de los componentes del sistema permite comprender cómo está formado un equipo informático y cuál es la función de cada una de sus partes. Todos estos elementos son esenciales para garantizar el correcto funcionamiento del ordenador y su adecuación al entorno de trabajo.
 

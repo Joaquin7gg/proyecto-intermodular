@@ -1,24 +1,24 @@
-# 3. Configuración de hardware propuesta
+# Configuración de hardware propuesta
 
 ## Índice
 
-- [Introducción](#31-introducción)
-- [Configuración propuesta para el equipo de usuario estándar](#32-configuración-propuesta-para-el-equipo-de-usuario-estándar)
-- [Configuración propuesta para el equipo estándar mejorado](#33-configuración-propuesta-para-el-equipo-estándar-mejorado)
-- [Configuración propuesta para la workstation de Soporte IT](#34-configuración-propuesta-para-la-workstation-de-soporte-it)
-- [Configuración propuesta para un equipo de alto rendimiento diseñado a medida](#35-configuración-propuesta-para-un-equipo-de-alto-rendimiento-diseñado-a-medida)
-- [Configuración propuesta para el portátil estándar](#36-configuración-propuesta-para-el-portátil-estándar)
-- [Configuración propuesta para el portátil potente de IT](#37-configuración-propuesta-para-el-portátil-potente-de-it)
-- [Comparación entre las configuraciones propuestas](#38-comparación-entre-las-configuraciones-propuestas)
-- [Conclusión](#39-conclusión)
+- [Introducción](#introducción)
+- [Configuración propuesta para el equipo de usuario estándar](#configuración-propuesta-para-el-equipo-de-usuario-estándar)
+- [Configuración propuesta para el equipo estándar mejorado](#configuración-propuesta-para-el-equipo-estándar-mejorado)
+- [Configuración propuesta para la workstation de Soporte IT](#configuración-propuesta-para-la-workstation-de-soporte-it)
+- [Configuración propuesta para un equipo de alto rendimiento diseñado a medida](#configuración-propuesta-para-un-equipo-de-alto-rendimiento-diseñado-a-medida)
+- [Configuración propuesta para el portátil estándar](#configuración-propuesta-para-el-portátil-estándar)
+- [Configuración propuesta para el portátil potente de IT](configuración-propuesta-para-el-portátil-potente-de-it)
+- [Comparación entre las configuraciones propuestas](#comparación-entre-las-configuraciones-propuestas)
+- [Conclusión](#conclusión)
 
-## 3.1 Introducción
+## Introducción
 
 Para este apartado se proponen varias configuraciones de hardware representativas del sistema. La infraestructura del club no utiliza un único tipo de equipo para todos los usuarios, sino que adapta el hardware al trabajo real de cada departamento. Por ello, se diferencian seis perfiles: un **equipo de usuario estándar**, un **equipo estándar mejorado**, una **workstation profesional para Soporte IT**, un **equipo de alto rendimiento diseñado a medida**, un **portátil profesional estándar** y un **portátil profesional más potente para IT**.
 
 Esta organización permite justificar mejor la elección del hardware, ya que no todos los puestos requieren la misma potencia, capacidad de ampliación o movilidad.
 
-## 3.2 Configuración propuesta para el equipo de usuario estándar
+## Configuración propuesta para el equipo de usuario estándar
 
 Como equipo de usuario estándar se propone un **Dell Pro Slim Desktop** con **Intel Core i5-14500 vPro**, **16 GB DDR5**, **512 GB SSD** y **gráficos integrados**. Se trata de una configuración adecuada para tareas de oficina, gestión administrativa, correo electrónico, navegación web y uso de aplicaciones corporativas.
 
@@ -65,7 +65,7 @@ Esta configuración es adecuada para departamentos como Dirección y Finanzas, R
 
 </div>
 
-## 3.3 Configuración propuesta para el equipo estándar mejorado
+## Configuración propuesta para el equipo estándar mejorado
 
 Como equipo estándar mejorado se propone un **Dell Pro Slim Desktop Plus** con **Intel Core Ultra 7 265**, **32 GB DDR5**, **512 GB SSD TLC** y **gráficos integrados**. Esta configuración está pensada para puestos que requieren más rendimiento que un equipo de oficina convencional, especialmente en multitarea o trabajo visual. Por ello, se asignarían dos al equipo de Marketing.
 
@@ -113,7 +113,7 @@ Esta configuración encaja muy bien en **Prensa y Marketing**, donde puede ser n
 
 </div>
 
-## 3.4 Configuración propuesta para la workstation de Soporte IT
+## Configuración propuesta para la workstation de Soporte IT
 
 Para el departamento de Soporte IT se propone un **HP Z4 G5**, una estación de trabajo profesional con **Intel Xeon W3-2425**, **chipset Intel W790**, **32 GB DDR5-4800 ECC** y **SSD NVMe PCIe Gen4 de 1 TB**.
 
@@ -161,7 +161,7 @@ La HP Z4 G5 es adecuada para Soporte IT porque ofrece una plataforma profesional
 
 </div>
 
-## 3.5 Configuración propuesta para un equipo de alto rendimiento diseñado a medida
+## Configuración propuesta para un equipo de alto rendimiento diseñado a medida
 
 Además de los equipos comerciales ya definidos, se propone un equipo de alto rendimiento diseñado desde cero para un puesto especial de **Prensa y Marketing**. Este ordenador está pensado para edición de imagen, vídeo, diseño avanzado o creación de contenido multimedia.
 
@@ -227,7 +227,7 @@ Este equipo a medida no sería lógico para todos los usuarios, pero sí como pu
 
 </div>
 
-## 3.6 Configuración propuesta para el portátil estándar
+## Configuración propuesta para el portátil estándar
 
 Para los puestos portátiles de uso general se propone el **Dell Latitude 5440**, un equipo profesional orientado a empresa. Dell lo comercializa con procesadores Intel Core de 13.ª generación, opciones **Intel Core i5-1335U**, **i5-1345U vPro**, **i5-1350P vPro** o superiores, memoria **DDR5-5200**, almacenamiento SSD NVMe y sistema operativo **Windows 11 Pro**. También ofrece gráfica integrada Intel y, opcionalmente, una NVIDIA GeForce MX550 en ciertas variantes.
 
@@ -275,7 +275,7 @@ Este portátil es adecuado para salas de reuniones, desplazamientos internos, tr
 
 </div>
 
-## 3.7 Configuración propuesta para el portátil potente de IT
+## Configuración propuesta para el portátil potente de IT
 
 ## Especificaciones
 
@@ -323,10 +323,10 @@ El ThinkPad T16 Gen 2 encaja bien como portátil del personal de IT porque combi
 
 </div>
 
-## 3.8 Comparación entre las configuraciones propuestas
+## Comparación entre las configuraciones propuestas
 
 Las distintas configuraciones responden a necesidades diferentes dentro de la misma infraestructura. El **equipo de usuario estándar** cubre el trabajo administrativo habitual. El **equipo estándar mejorado** ofrece más margen para usuarios con multitarea más exigente. La **HP Z4 G5** aporta una plataforma profesional para Soporte IT. El **equipo a medida** representa la opción más potente para trabajo creativo avanzado. En movilidad, el **Dell Latitude 5440** cubre el uso profesional general, mientras que el **Lenovo ThinkPad T16 Gen 2** ofrece un perfil portátil más potente para el área técnica.
 
-## 3.9 Conclusión
+## Conclusión
 
 La propuesta de hardware del sistema queda más completa al combinar equipos de sobremesa, workstations, un equipo personalizado de alto rendimiento y dos perfiles de portátil. De este modo, la infraestructura no solo cubre las necesidades generales del club, sino también los requisitos de movilidad y los casos en los que se necesita mayor capacidad técnica o creativa. La diversidad de configuraciones permite asignar a cada puesto un equipo adecuado a sus funciones reales, manteniendo coherencia técnica y organizativa.     
