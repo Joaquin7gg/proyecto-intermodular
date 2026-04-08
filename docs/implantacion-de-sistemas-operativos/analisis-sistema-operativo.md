@@ -7,7 +7,6 @@
 - [Sistemas operativos cliente](#sistemas-operativos-cliente)
 - [Uso de sistemas Linux en el entorno corporativo](#uso-de-sistemas-linux-en-el-entorno-corporativo)
 - [Kali Linux como herramienta de auditoría](#kali-linux-como-herramienta-de-auditoría)
-- [Dual Boot](#dual-boot)
 - [Conclusión](#conclusión)
 ---
 
@@ -77,36 +76,6 @@ De forma adicional, se ha incorporado **Kali Linux**, un sistema especializado d
 La utilización de Kali Linux permite simular un entorno profesional en el que el departamento de sistemas también realiza tareas básicas de auditoría y comprobación de la seguridad de la infraestructura.
 
 ---
-
-## Dual Boot
-
-Uno de los equipos de soporte cuenta con arranque dual entre **Windows 11 Pro y Ubuntu Desktop**. Para ello, se realizó una partición del disco desde Windows y posteriormente se instaló Ubuntu junto al sistema existente.
-
-<div align="center">
-
-<img src="capturas/dualboot/db1.png" width="700">
-<img src="capturas/dualboot/db2.png" width="700">
-
-</div>
-
-<div align="center">
-
-*Antes de comenzar la instalación, se procedió a realizar una partición del disco duro para Ubuntu desde Windows.*
-
-</div>
-
-<div align="center">
-
-<img src="capturas/dualboot/db3.png" width="700">
-<img src="capturas/dualboot/db4.png" width="700">
-
-</div>
-
-<div align="center">
-
-*Durante la instalación de Ubuntu se eligió instalarlo junto a Windows. La segunda captura muestra el gestor de arranque GRUB, que permite seleccionar el sistema operativo deseado.*
-
-</div>
 
 ## Conclusión
 

@@ -50,8 +50,8 @@ Cada departamento del club dispone de acceso a una impresora específica, lo que
 
 <div align="center">
 
-<img src="capturas/servicios/impresora/1.png" width="700">
-<img src="capturas/servicios/impresora/2.png" width="700">
+<img src="capturas/servicios/impresora/1.png" width="500">
+<img src="capturas/servicios/impresora/2.png" width="500">
 
 </div>
 
@@ -65,8 +65,8 @@ Como el club dispone de varias impresoras en red asignadas por departamentos (Pr
 
 <div align="center">
 
-<img src="capturas/servicios/impresora/3.png" width="700">
-<img src="capturas/servicios/impresora/4.png" width="700">
+<img src="capturas/servicios/impresora/3.png" width="500">
+<img src="capturas/servicios/impresora/4.png" width="500">
 
 </div>
 
@@ -80,8 +80,8 @@ La configuración es válida, tal y como se muestra en las siguientes capturas. 
 
 <div align="center">
 
-<img src="capturas/servicios/impresora/5.png" width="700">
-<img src="capturas/servicios/impresora/6.png" width="700">
+<img src="capturas/servicios/impresora/5.png" width="500">
+<img src="capturas/servicios/impresora/6.png" width="500">
 
 </div>
 
@@ -116,8 +116,8 @@ Para organizar el acceso, se creó una carpeta FTP con subcarpetas correspondien
 
 <div align="center">
 
-<img src="capturas/servicios/FTP/1.png" width="700">
-<img src="capturas/servicios/FTP/2.png" width="700">
+<img src="capturas/servicios/FTP/1.png" width="500">
+<img src="capturas/servicios/FTP/2.png" width="500">
 
 </div>
 
@@ -146,8 +146,8 @@ Una vez creadas las carpetas, se procedió a agregar el sitio FTP. Durante este 
 
 <div align="center">
 
-<img src="capturas/servicios/FTP/4.png" width="700">
-<img src="capturas/servicios/FTP/5.png" width="700">
+<img src="capturas/servicios/FTP/4.png" width="500">
+<img src="capturas/servicios/FTP/5.png" width="500">
 
 </div>
 
@@ -191,8 +191,8 @@ Una vez iniciada sesión, hubo que hacer frente a otro problema, el **error 227*
 
 <div align="center">
 
-<img src="capturas/servicios/FTP/8.jpg" width="700">
-<img src="capturas/servicios/FTP/9.jpg" width="700">
+<img src="capturas/servicios/FTP/8.jpg" width="500">
+<img src="capturas/servicios/FTP/9.jpg" width="500">
 
 </div>
 
@@ -206,8 +206,8 @@ Al fin, se pudo iniciar sesión. Y como se puede comprobar, los permisos estaban
 
 <div align="center">
 
-<img src="capturas/servicios/FTP/10.png" width="700">
-<img src="capturas/servicios/FTP/11.png" width="700">
+<img src="capturas/servicios/FTP/10.png" width="500">
+<img src="capturas/servicios/FTP/11.png" width="500">
 
 </div>
 
@@ -225,8 +225,8 @@ Ya que se había creado anteriormente el servidor web para el servicio FTP, el p
 
 <div align="center">
 
-<img src="capturas/servicios/intranet/1.png" width="700">
-<img src="capturas/servicios/intranet/2.png" width="700">
+<img src="capturas/servicios/intranet/1.png" width="500">
+<img src="capturas/servicios/intranet/2.png" width="500">
 
 </div>
 
@@ -240,8 +240,8 @@ Para introducir las creedenciales, se optó por activar la **Autenticación de W
 
 <div align="center">
 
-<img src="capturas/servicios/intranet/4.png" width="700">
-<img src="capturas/servicios/intranet/5.png" width="700">
+<img src="capturas/servicios/intranet/4.png" width="500">
+<img src="capturas/servicios/intranet/5.png" width="500">
 
 </div>
 
@@ -298,8 +298,8 @@ Una vez solucionado esto, era el momento de comprobar si realmente funcionaban l
 
 <div align="center">
 
-<img src="capturas/servicios/intranet/9.png" width="700">
-<img src="capturas/servicios/intranet/10.png" width="700">
+<img src="capturas/servicios/intranet/9.png" width="500">
+<img src="capturas/servicios/intranet/10.png" width="500">
 
 </div>
 
@@ -316,8 +316,8 @@ uno propio.
 
 <div align="center">
 
-<img src="capturas/servicios/intranet/11.png" width="700">
-<img src="capturas/servicios/intranet/12.png" width="700">
+<img src="capturas/servicios/intranet/11.png" width="500">
+<img src="capturas/servicios/intranet/12.png" width="500">
 
 </div>
 
@@ -392,8 +392,8 @@ Se ejecutó el nuevo script con éxito y Juan Pérez desapareció del departamen
 
 <div align="center">
 
-<img src="capturas/servicios/script/7.png" width="600">
-<img src="capturas/servicios/script/8.png" width="600">
+<img src="capturas/servicios/script/7.png" width="500">
+<img src="capturas/servicios/script/8.png" width="500">
 
 </div>
 
@@ -439,8 +439,8 @@ A través del comando **“mstsc”** se llegó a la aplicación de Escritorio r
 
 <div align="center">
 
-<img src="capturas/servicios/escrem/3.png" width="600">
-<img src="capturas/servicios/escrem/4.png" width="600">
+<img src="capturas/servicios/escrem/3.png" width="500">
+<img src="capturas/servicios/escrem/4.png" width="500">
 
 </div>
 
@@ -470,8 +470,8 @@ Esta vez sí, el inicio de sesión fue correcto, y los usuarios podían iniciar 
 
 <div align="center">
 
-<img src="capturas/servicios/escrem/6.png" width="600">
-<img src="capturas/servicios/escrem/7.png" width="600">
+<img src="capturas/servicios/escrem/6.png" width="500">
+<img src="capturas/servicios/escrem/7.png" width="500">
 
 </div>
 
@@ -502,8 +502,8 @@ Después, se procedió a **activar el Raid 5**, quedando configurado de manera c
 
 <div align="center">
 
-<img src="capturas/servicios/R5/2.png" width="700">
-<img src="capturas/servicios/R5/3.png" width="700">
+<img src="capturas/servicios/R5/2.png" width="500">
+<img src="capturas/servicios/R5/3.png" width="500">
 
 </div>
 

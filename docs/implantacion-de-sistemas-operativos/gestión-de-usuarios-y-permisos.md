@@ -32,8 +32,8 @@ La gestión de usuarios a través de Active Directory permite centralizar la aut
 
 <div align="center">
 
-<img src="capturas/gestion_usuarios/1.png" width="700">
-<img src="capturas/gestion_usuarios/2.png" width="700">
+<img src="capturas/gestion_usuarios/1.png" width="500">
+<img src="capturas/gestion_usuarios/2.png" width="500">
 
 </div>
 
@@ -57,7 +57,7 @@ Al que posteriormente se añadieron los usuarios pertenecientes a ese departamen
 
 <div align="center">
 
-<img src="capturas/gestion_usuarios/3.png" width="700">
+<img src="capturas/gestion_usuarios/3.png" width="500">
 
 </div>
 
@@ -79,7 +79,7 @@ Este método simplifica la administración y evita tener que modificar los permi
 
 <div align="center">
 
-<img src="capturas/gestion_usuarios/4.png" width="700">
+<img src="capturas/gestion_usuarios/4.png" width="500">
 
 </div>
 
@@ -93,8 +93,8 @@ Tras la creación de las carpetas, se le asignó a cada una el grupo de segurida
 
 <div align="center">
 
-<img src="capturas/gestion_usuarios/5.png" width="700">
-<img src="capturas/gestion_usuarios/6.png" width="700">
+<img src="capturas/gestion_usuarios/5.png" width="500">
+<img src="capturas/gestion_usuarios/6.png" width="500">
 </div>
 
 <div align="center">
@@ -117,8 +117,8 @@ Esto confirma que la asignación de permisos mediante grupos de seguridad funcio
 
 <div align="center">
 
-<img src="capturas/gestion_usuarios/7.png" width="700">
-<img src="capturas/gestion_usuarios/8.png" width="700">
+<img src="capturas/gestion_usuarios/7.png" width="500">
+<img src="capturas/gestion_usuarios/8.png" width="500">
 </div>
 
 <div align="center">

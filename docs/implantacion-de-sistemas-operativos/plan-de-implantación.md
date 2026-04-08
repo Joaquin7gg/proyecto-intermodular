@@ -140,6 +140,10 @@ Utilizado en algunos equipos técnicos, especialmente en áreas relacionadas con
 
 Utilizado por el departamento de IT para tareas relacionadas con seguridad informática y pruebas de auditoría interna.
 
+### Dual Boot
+
+Utilizado en un ordenador de IT cuenta con arranque dual entre Windows 11 Pro y Ubuntu Desktop.
+
 ---
 
 ## Integración en la infraestructura

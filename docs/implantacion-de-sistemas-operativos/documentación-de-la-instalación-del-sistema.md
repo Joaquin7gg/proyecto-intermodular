@@ -7,6 +7,7 @@
 - [Windows 11 Pro](#windows-11-pro)
 - [Linux Ubuntu Desktop](#linux-ubuntu-desktop)
 - [Kali Linux](#kali-linux)
+- [Dual Boot](#dual-boot)
 
 ---
 
@@ -24,8 +25,8 @@ Windows Server 2022 se implementó en primer lugar como **servidor central del e
 
 <div align="center">
 
-<img src="capturas/SO/wserver1.png" width="700">
-<img src="capturas/SO/wserver2.png" width="700">
+<img src="capturas/SO/wserver1.png" width="500">
+<img src="capturas/SO/wserver2.png" width="500">
 
 </div>
 
@@ -53,8 +54,8 @@ Windows 11 Pro fue el sistema operativo elegido para **la mayoría de los equipo
 
 <div align="center">
 
-<img src="capturas/SO/w111.png" width="700">
-<img src="capturas/SO/w112.png" width="700">
+<img src="capturas/SO/w111.png" width="500">
+<img src="capturas/SO/w112.png" width="500">
 
 </div>
 
@@ -66,8 +67,8 @@ Windows 11 Pro fue el sistema operativo elegido para **la mayoría de los equipo
 
 <div align="center">
 
-<img src="capturas/SO/w113.png" width="700">
-<img src="capturas/SO/w114.png" width="700">
+<img src="capturas/SO/w113.png" width="500">
+<img src="capturas/SO/w114.png" width="500">
 
 </div>
 
@@ -107,8 +108,8 @@ Linux Ubuntu Desktop también estará presente en el club, aunque de una manera 
 
 <div align="center">
 
-<img src="capturas/SO/u2.png" width="700">
-<img src="capturas/SO/u3.png" width="700">
+<img src="capturas/SO/u2.png" width="500">
+<img src="capturas/SO/u3.png" width="500">
 
 </div>
 
@@ -136,8 +137,8 @@ Por último, uno de los empleados de IT cuenta con un portátil en el que está 
 
 <div align="center">
 
-<img src="capturas/SO/kali/1.png" width="700">
-<img src="capturas/SO/kali/2.png" width="700">
+<img src="capturas/kali/1.png" width="500">
+<img src="capturas/kali/2.png" width="500">
 
 </div>
 
@@ -149,12 +150,42 @@ Por último, uno de los empleados de IT cuenta con un portátil en el que está 
 
 <div align="center">
 
-<img src="capturas/SO/kali/3.png" width="700">
+<img src="capturas/kali/3.png" width="700">
 
 </div>
 
 <div align="center">
 
 *Herramientas como Wireshark son muy útiles dentro de Kali Linux.*
+
+</div>
+
+## Dual Boot
+
+Uno de los equipos de soporte cuenta con arranque dual entre **Windows 11 Pro y Ubuntu Desktop**. Para ello, se realizó una partición del disco desde Windows y posteriormente se instaló Ubuntu junto al sistema existente.
+
+<div align="center">
+
+<img src="capturas/dualboot/db1.png" width="500">
+<img src="capturas/dualboot/db2.png" width="500">
+
+</div>
+
+<div align="center">
+
+*Antes de comenzar la instalación, se procedió a realizar una partición del disco duro para Ubuntu desde Windows.*
+
+</div>
+
+<div align="center">
+
+<img src="capturas/dualboot/db3.png" width="500">
+<img src="capturas/dualboot/db4.png" width="500">
+
+</div>
+
+<div align="center">
+
+*Durante la instalación de Ubuntu se eligió instalarlo junto a Windows. La segunda captura muestra el gestor de arranque GRUB, que permite seleccionar el sistema operativo deseado.*
 
 </div>

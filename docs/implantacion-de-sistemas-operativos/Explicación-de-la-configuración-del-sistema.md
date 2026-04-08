@@ -19,8 +19,8 @@ Antes de instalar la herramienta de Active Directory, se cambió el nombre del s
 
 <div align="center">
 
-<img src="capturas/configuracion_sistema/1.png" width="700">
-<img src="capturas/configuracion_sistema/2.png" width="700">
+<img src="capturas/configuracion_sistema/1.png" width="500">
+<img src="capturas/configuracion_sistema/2.png" width="500">
 
 </div>
 
@@ -34,8 +34,8 @@ El siguiente paso, esta vez sí, proceder a instalar la herramienta de Active Di
 
 <div align="center">
 
-<img src="capturas/configuracion_sistema/3.png" width="700">
-<img src="capturas/configuracion_sistema/4.png" width="700">
+<img src="capturas/configuracion_sistema/3.png" width="500">
+<img src="capturas/configuracion_sistema/4.png" width="500">
 
 </div>
 
@@ -53,8 +53,8 @@ Para ello, el equipo cliente fue configurado para utilizar como servidor DNS la 
 
 <div align="center">
 
-<img src="capturas/configuracion_sistema/5.png" width="700">
-<img src="capturas/configuracion_sistema/6.png" width="700">
+<img src="capturas/configuracion_sistema/5.png" width="500">
+<img src="capturas/configuracion_sistema/6.png" width="500">
 
 </div>
 
@@ -68,8 +68,8 @@ Posteriormente, desde la configuración del sistema de Windows 11 se accedió a 
 
 <div align="center">
 
-<img src="capturas/configuracion_sistema/7.png" width="700">
-<img src="capturas/configuracion_sistema/8.png" width="700">
+<img src="capturas/configuracion_sistema/7.png" width="500">
+<img src="capturas/configuracion_sistema/8.png" width="500">
 
 </div>
 
