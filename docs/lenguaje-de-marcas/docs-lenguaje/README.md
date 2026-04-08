@@ -6,10 +6,12 @@
 
 ## Índice
 
+- [Datos representados en el XML](#datos-representados-en-el-xml)
 - [Validación del XML mediante DTD](#validación-del-xml-mediante-dtd)
 - [Evidencia de que el DTD funciona](#evidencia-de-que-el-dtd-funciona)
 - [Transformación XSL para visualizar HTML](#transformación-xsl-para-visualizar-html)
 - [Proceso de transformación XLST](#proceso-de-transformación)
+- [Integración en el proyecto](#integración-en-el-proyecto)
 
 Este directorio recoge los documentos correspondientes al módulo de **Lenguaje de Marcas**, dentro del proyecto intermodular de **1º ASIR**.
 
@@ -18,13 +20,6 @@ En este apartado se muestra la documentación de un repositorio relacionado con 
 # Datos representados en el XML
 
 El archivo [inventario.xml](../xml/inventario.xml) representa el **inventario tecnológico del Almería CF**, es decir, la infraestructura informática utilizada por un club ficticio para dar soporte a sus diferentes departamentos.
-
-Este inventario forma parte del **proyecto intermodular** y se utiliza en varios módulos del ciclo formativo, como **Redes**, **Bases de Datos** y **Hardware**.
-
-Además, constituye una pieza fundamental de la **intranet del club**, también incluida en este módulo y que se puede ver en este <a href="https://intranet-almeria.netlify.app" target="_blank" rel="noopener noreferrer">enlace</a>. Esta intranet está integrada en el módulo de **Implantación de Sistemas Operativos** mediante **Active Directory**, lo que permite gestionar el acceso de los usuarios. De este modo, cada usuario puede acceder a la página de su departamento en la intranet con sus credenciales y, dependiendo de los permisos, podrá o no visualizar la web del departamento. 
-
-Debido a esta conexión con **Active Directory**, se incluye una página de error personalizada para cuando un usuario accede de manera incorrecta en un sitio al que no tiene acceso por permisos. Esta página se encuentra en la carpeta [errors](../errors/403.html).
-
 
 Esta estructura de XML se organiza mediante el elemento raíz:
 
@@ -44,7 +39,7 @@ De esta forma, el documento XML contiene:
 
 A continuación se muestra una pequeña muestra de como está organizado:
 
-```bash
+```xml
 <inventario club="Almería CF" fecha="2026-03-18">
 
     <item id="pccorp01" tipoRef="t08" ubicacionRef="u05" proveedorRef="p01" estado="operativo">
@@ -81,7 +76,7 @@ Este archivo define:
 
 Ejemplo de definición en el DTD:
 
-```bash
+```xml
 <!ELEMENT inventario (tipos, ubicaciones, proveedores, items)>
 <!ATTLIST inventario
   club CDATA #REQUIRED
@@ -107,7 +102,7 @@ En esta captura, tomada desde Visual Studio Code, el mismo editor informa de los
 
 El XML pone esta referencia:
 
-```bash
+```xml
 ubicacionRef="u99"
 ```
 
@@ -123,7 +118,7 @@ Según el DTD, cada item tiene que tener exactamente estos elementos y en este o
 
 Sin embargo, en el XML falso, los item empiezan directamente por:
 
-```bash
+```xml
 <modelo>...</modelo>
 ```
 
@@ -144,7 +139,7 @@ operativo | mantenimiento | averiado | retirado
 
 Pero en el XML incorrecto aparece:
 
-```bash
+```xml
 estado="roto"
 ```
 
@@ -156,7 +151,8 @@ En XML, los atributos de tipo ID tienen que ser únicos.
 Eso quiere decir que no puede haber dos elementos con el mismo identificador.
 
 En el archivo aparecen dos item con:
-```bash
+
+```xml
 id="srv01"
 ```
 
@@ -171,7 +167,7 @@ Asociación del XML con la hoja XSLT
 
 Para que el navegador aplique automáticamente la transformación, el archivo datos.xml incluye la siguiente instrucción al inicio del documento:
 
-```bash
+```xml
 <?xml-stylesheet type="text/xsl" href="transform.xsl"?>
 ```
 
@@ -208,6 +204,21 @@ inventario tecnológico dentro de la misma estética del sitio web, garantizando
 El resultado final es una página web que muestra la información del inventario del club de forma clara y estructurada, permitiendo consultar fácilmente los distintos elementos que forman parte de la infraestructura tecnológica.
 
 Mediante **las capturas incluidas en la carpeta docs**, se puede [ver](../docs-lenguaje/sin-transformacion.png) como sería el archivo XML sin aplicar una transformación XSLT. Sin embargo, si se aplica correctamente, [aquí](../docs-lenguaje/transformado.png), se aprecia un resultado más que satisfactorio, ya que como se ha dicho antes, ahora se aprovecha del estilo CSS creado.
+
+# Integración en el proyecto
+
+Este inventario forma parte del **proyecto intermodular** y se utiliza en varios módulos como **Redes**, **Bases de Datos** y **Hardware**. Además, constituye una pieza fundamental de la **intranet del club**, también incluida en este módulo y que se puede ver en este <a href="https://intranet-almeria.netlify.app" target="_blank" rel="noopener noreferrer">enlace</a>. Esta intranet está integrada en el módulo de **Implantación de Sistemas Operativos** mediante **Active Directory**, lo que permite gestionar el acceso de los usuarios. De este modo, cada usuario puede acceder a la página de su departamento en la intranet con sus credenciales y, dependiendo de los permisos, podrá o no visualizar la web del departamento. 
+
+Debido a esta conexión con **Active Directory**, se ha incluido también una página de error personalizada para cuando un usuario accede de manera incorrecta en un sitio al que no tiene acceso por permisos. Esta página se encuentra en la carpeta [errors](../errors/403.html).
+
+Por otro lado, la parte XML encaja en el proyecto principalmente como **reporte**. Su función es representar de forma estructurada el inventario tecnológico del club y servir como base para generar una visualización en **HTML** mediante **XSLT**.
+
+Además, también puede considerarse una forma de **exportación de datos**, ya que la información del inventario se organiza en un formato estándar como XML, lo que facilita su almacenamiento, validación y reutilización en otros contextos.
+
+No se utiliza como **importación**, ya que en este caso el sistema no está leyendo un XML externo para cargar datos, sino generando y mostrando información propia del proyecto.
+
+Por tanto, dentro del proyecto, el XML cumple sobre todo una función de **reporte**, apoyada por la **exportación estructurada** de la información.
+
 
 
 ## Tecnologías y servicios utilizados
