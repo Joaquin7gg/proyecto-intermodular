@@ -20,8 +20,6 @@
 
 - [Tareas básicas de administración](tareas-basicas-de-administracion.md)
 
-- [Tecnologías utilizadas](#tecnologías-utilizadas)
-
 # Gestión de Bases de Datos
 
 Este directorio recoge los documentos correspondientes al módulo de **Gestión de Bases de Datos**, dentro del proyecto intermodular de **1º ASIR**.
