@@ -32,13 +32,13 @@
   - [Validación de IP dinámica en Portátil de Empleados](#validación-de-ip-dinámica-en-portátil-de-empleados)
   - [Validación de IP dinámica en Portátil de Invitados](#validación-de-ip-dinámica-en-portátil-de-invitados)
 
-- [Simulación de internet en un Router 2911](#4--simulación-de-internet-en-un-router-2911)
+- [Simulación de internet en un Router 2911](#simulación-de-internet-en-un-router-2911)
   - [Configuración de la interfaz del switch multicapa 3 conectada al router](#configuración-de-la-interfaz-del-switch-multicapa-3-conectada-al-router)
   - [Configuración de la interfaz del router conectada al switch multicapa](#configuración-de-la-interfaz-del-router-conectada-al-switch-multicapa)
   - [Creación de una loopback para simular internet](#creación-de-una-loopback-para-simular-internet)
   - [Pruebas de conexión a internet simulado](#pruebas-de-conexión-a-internet-simulado)
 
-- [Configuración de ACLs para control de acceso entre VLANs](#5--configuración-de-acls-para-control-de-acceso-entre-vlans)
+- [Configuración de ACLs para control de acceso entre VLANs](#configuración-de-acls-para-control-de-acceso-entre-vlans)
   - [Creación de la primera ACL: VLAN 70 (WLAN_empleados) no puede comunicarse con VLAN 10 (Dirección)](#creación-de-la-primera-acl-vlan-70-wlan_empleados-no-puede-comunicarse-con-vlan-10-dirección)
   - [Creación de la segunda ACL: Marketing (VLAN 20) no puede acceder a Dirección (VLAN 10)](#creación-de-la-segunda-acl-marketing-vlan-20-no-puede-acceder-a-dirección-vlan-10)
   - [Solo VLAN 99 puede administrar los dispositivos](#solo-vlan-99-puede-administrar-los-dispositivos)
