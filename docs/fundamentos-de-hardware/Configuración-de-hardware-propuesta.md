@@ -172,7 +172,7 @@ La configuración propuesta es la siguiente:
 - **Memoria RAM:** Corsair Vengeance RGB DDR5-6000 CL40 64GB (2x32GB)
 - **Tarjeta gráfica:** NVIDIA GeForce RTX 5070  
 - **Almacenamiento principal:** Samsung 990 Pro NVMe PCIe 4.0 de 2 TB  
-- **Fuente de alimentación:** Corsair HX1500i (2023) Black ATX 1500W Fully Modular 80+ Platinum Certified
+- **Fuente de alimentación:** Corsair RMx Series RM1000x 1000W 80 Plus Gold Modular
 - **Refrigeración:** DeepCool AK620 Zero Dark
 - **Caja:** Corsair 4000D Airflow
 
@@ -212,7 +212,7 @@ Se ha elegido la caja **Corsair 4000D Airflow** ya que resulta adecuada para una
 
 ### Justificación
 
-Este equipo a medida no sería lógico para todos los usuarios, pero sí como puesto especial dentro de **Prensa y Marketing**, donde realmente se puede aprovechar una GPU potente, mucha memoria y un almacenamiento rápido.
+Este equipo a medida no sería lógico para todos los usuarios, pero sí es interesante inluirlo dentro de **Prensa y Marketing**, donde realmente se puede aprovechar una GPU potente, mucha memoria y un almacenamiento rápido.
 
 </div>
 
@@ -226,6 +226,25 @@ Este equipo a medida no sería lógico para todos los usuarios, pero sí como pu
 *Para representar visualmente el equipo de alto rendimiento diseñado a medida, se ha utilizado una herramienta de simulación 3D de montaje de PCs. Esta plataforma permite visualizar la distribución interna de los componentes y comprobar su compatibilidad, aunque no se ha utilizado como exportador de modelo 3D, sino como apoyo visual mediante capturas de pantalla de la configuración final.*
 
 </div>
+
+### Tabla de precios
+
+<div align="center">
+
+| Componente | Precio |
+|------------|--------|
+| Procesador: AMD Ryzen 9 9900X | [379,90 €](https://www.pccomponentes.com/procesador-amd-ryzen-9-9900x-44-56ghz) |
+| Placa base: GIGABYTE X870 AORUS ELITE WIFI7 | [292,99 €](https://www.pccomponentes.com/placa-base-gigabyte-x870-a-elite-wifi7) |
+| Memoria RAM: Corsair Vengeance RGB DDR5-6000 CL40 64GB (2x32GB) | [1083,69 €](https://www.pccomponentes.com/corsair-vengeance-rgb-ddr5-6000mhz-64gb-2x32gb-cl40-memoria-dual-amd-expo-e-intel-xmp) |
+| Tarjeta gráfica: NVIDIA GeForce RTX 5070 | [659,90 €](https://www.pccomponentes.com/tarjeta-grafica-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7-reflex-2-rtx-ai-dlss4) |
+| Almacenamiento principal: Samsung 990 Pro NVMe PCIe 4.0 2TB | [284,95 €](https://www.pccomponentes.com/disco-duro-samsung-990-pro-2tb-disco-ssd-7450mb-s-nvme-pcie-40-m2-gen4) |
+| Fuente de alimentación: Corsair RMx Series RM1000x 1000W 80 Plus Gold Modular | [278,32 €](https://www.pccomponentes.com/corsair-rmx-series-rm1000x-1000w-80-plus-gold-modular) |
+| Refrigeración: DeepCool AK620 Zero Dark | [75,00 €](https://www.pccomponentes.com/deepcool-ak620-zero-dark-ventilador-cpu-120mm-negro) |
+| Caja: Corsair 4000D Airflow | [220,00 €](https://www.pccomponentes.com/corsair-4000d-airflow-cristal-templado-usb-31-negra) |
+
+> **Nota:** Precios consultados a fecha de 20 de abril de 2026.
+</div>
+
 
 ## Configuración propuesta para el portátil estándar
 
