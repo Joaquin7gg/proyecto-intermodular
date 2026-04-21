@@ -80,14 +80,14 @@ Equipo profesional orientado a administración de sistemas, diagnóstico, virtua
 ### Equipo de alto rendimiento a medida
 Puesto especial para Prensa y Marketing, orientado a edición avanzada, diseño y creación de contenido multimedia.
 
-- AMD Ryzen 9 9900X
-- GIGABYTE X870 AORUS ELITE WIFI7
-- 64 GB DDR5
-- NVIDIA GeForce RTX 5070
-- Samsung 990 Pro NVMe PCIe 4.0 de 2 TB
-- Corsair HX1500i
-- DeepCool AK620 Zero Dark
-- Corsair 4000D Airflow
+- CPU: AMD Ryzen 9 9900X
+- Placa base: GIGABYTE X870 AORUS ELITE WIFI7
+- Memoria RAM: Corsair Vengeance RGB DDR5-6000 CL40 64GB (2x32GB)
+- GPU: NVIDIA GeForce RTX 5070
+- Almacenamiento: Samsung 990 Pro NVMe PCIe 4.0 de 2 TB
+- Fuente de alimentación: Corsair RMx Series RM1000x 1000W 80 Plus Gold Modular
+- Disipador: DeepCool AK620 Zero Dark
+- Chasis: Corsair 4000D Airflow
 
 ## Sistema de almacenamiento
 
