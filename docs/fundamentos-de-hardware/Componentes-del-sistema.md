@@ -1,4 +1,4 @@
-# Descripción de los componentes del sistema
+# Componentes del sistema
 
 ## Índice
 

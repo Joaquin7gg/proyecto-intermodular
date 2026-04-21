@@ -1,14 +1,14 @@
 **Proyecto:** Proyecto Intermodular 1º ASIR<br>
-**Módulo:** Fundamentos del Hardware<br>
+**Módulo:** Fundamentos de Hardware<br>
 **Alumno:** Joaquín Luis García García
 
 ## Índice
 
-- [Documento de análisis de hardware](Documento-de-análisis-de-hardware.md)
-- [Descripción de los componentes del sistema](Descripción-de-los-componentes-del_sistema.md)
+- [Análisis de necesidades](Análisis-de-necesidades.md)
+- [Componentes del sistema](Componentes-del-sistema.md)
 - [Configuración de hardware propuesta](Configuración-de-hardware-propuesta.md)
-- [Explicación del sistema de almacenamiento](Explicación-del-sistema-de-almacenamiento.md)
-- [Reflexión](reflexion.md)
+- [Sistema de almacenamiento](Sistema-de-almacenamiento.md)
+- [Mejora o evolución del sistema](Mejora-o-evolución-del-sistema.md)
 
 ## Descripción
 

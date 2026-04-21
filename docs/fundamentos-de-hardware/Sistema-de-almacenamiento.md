@@ -1,4 +1,4 @@
-# Explicación del sistema de almacenamiento
+# Sistema de almacenamiento
 
 ## Índice
 

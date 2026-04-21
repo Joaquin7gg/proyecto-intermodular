@@ -1,12 +1,12 @@
-# Reflexión
+# Mejora o evolución del sistema
 
 ## Índice
 
 - [Introducción](#introducción)
-- [Comparativa entre las configuraciones propuestas](#52-comparativa-entre-las-configuraciones-propuestas)
-- [Posibles mejoras de hardware](#53-posibles-mejoras-de-hardware)
-- [Evolución del sistema si la empresa crece](#54-evolución-del-sistema-si-la-empresa-crece)
-- [Valoración final](#55-valoración-final)
+- [Comparativa entre las configuraciones propuestas](#comparativa-entre-las-configuraciones-propuestas)
+- [Posibles mejoras de hardware](#posibles-mejoras-de-hardware)
+- [Evolución del sistema si la empresa crece](#evolución-del-sistema-si-la-empresa-crece)
+- [Valoración final](#valoración-final)
 
 ## Introducción
 
