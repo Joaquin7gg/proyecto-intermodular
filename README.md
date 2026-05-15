@@ -99,6 +99,7 @@ Parte orientada al perfil profesional, donde se trabaja la presentación del pro
 - **GitHub**
 - **Markdown**
 - **Draw.io**
+- **PowerShell**
 
 ---
 
